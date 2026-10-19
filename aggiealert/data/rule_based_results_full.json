@@ -1,0 +1,5728 @@
+[
+  {
+    "alert_id": "A24200",
+    "source_ip": "173.234.31.186",
+    "target_user": "webmaster",
+    "rule_based_severity": "Medium",
+    "matched_signatures": [
+      "failed",
+      "invalid_user",
+      "breakin"
+    ],
+    "rationale": "Signature match: authentication attempted against a non-existent account."
+  },
+  {
+    "alert_id": "A24203",
+    "source_ip": "212.47.254.145",
+    "target_user": null,
+    "rule_based_severity": "Low",
+    "matched_signatures": [],
+    "rationale": "No authentication-failure or success signatures matched; likely benign connection/disconnect."
+  },
+  {
+    "alert_id": "A24206",
+    "source_ip": "52.80.34.196",
+    "target_user": "test9",
+    "rule_based_severity": "Medium",
+    "matched_signatures": [
+      "failed",
+      "invalid_user"
+    ],
+    "rationale": "Signature match: authentication attempted against a non-existent account."
+  },
+  {
+    "alert_id": "A24208",
+    "source_ip": "173.234.31.186",
+    "target_user": "webmaster",
+    "rule_based_severity": "Medium",
+    "matched_signatures": [
+      "failed",
+      "invalid_user",
+      "breakin"
+    ],
+    "rationale": "Signature match: authentication attempted against a non-existent account."
+  },
+  {
+    "alert_id": "A24224",
+    "source_ip": "202.100.179.208",
+    "target_user": "chen",
+    "rule_based_severity": "Medium",
+    "matched_signatures": [
+      "failed",
+      "invalid_user"
+    ],
+    "rationale": "Signature match: authentication attempted against a non-existent account."
+  },
+  {
+    "alert_id": "A24227",
+    "source_ip": "5.36.59.76",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target",
+      "repeated"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A24235",
+    "source_ip": "112.95.230.3",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A24237",
+    "source_ip": "112.95.230.3",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A24239",
+    "source_ip": "112.95.230.3",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A24241",
+    "source_ip": "112.95.230.3",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A24243",
+    "source_ip": "112.95.230.3",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A24245",
+    "source_ip": "112.95.230.3",
+    "target_user": "pgadmin",
+    "rule_based_severity": "Medium",
+    "matched_signatures": [
+      "failed",
+      "invalid_user"
+    ],
+    "rationale": "Signature match: authentication attempted against a non-existent account."
+  },
+  {
+    "alert_id": "A24247",
+    "source_ip": "112.95.230.3",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A24249",
+    "source_ip": "112.95.230.3",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A24251",
+    "source_ip": "112.95.230.3",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A24253",
+    "source_ip": "112.95.230.3",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A24255",
+    "source_ip": "112.95.230.3",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A24257",
+    "source_ip": "112.95.230.3",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A24259",
+    "source_ip": "112.95.230.3",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A24261",
+    "source_ip": "112.95.230.3",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A24263",
+    "source_ip": "112.95.230.3",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A24265",
+    "source_ip": "112.95.230.3",
+    "target_user": "utsims",
+    "rule_based_severity": "Medium",
+    "matched_signatures": [
+      "failed",
+      "invalid_user"
+    ],
+    "rationale": "Signature match: authentication attempted against a non-existent account."
+  },
+  {
+    "alert_id": "A24267",
+    "source_ip": "112.95.230.3",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A24269",
+    "source_ip": "112.95.230.3",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A24271",
+    "source_ip": "112.95.230.3",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A24273",
+    "source_ip": "112.95.230.3",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A24275",
+    "source_ip": "112.95.230.3",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A24277",
+    "source_ip": "112.95.230.3",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A24279",
+    "source_ip": "112.95.230.3",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A24281",
+    "source_ip": "112.95.230.3",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A24283",
+    "source_ip": "112.95.230.3",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A24285",
+    "source_ip": "112.95.230.3",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A24287",
+    "source_ip": "123.235.32.19",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A24289",
+    "source_ip": "123.235.32.19",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A24291",
+    "source_ip": "123.235.32.19",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A24293",
+    "source_ip": "123.235.32.19",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A24295",
+    "source_ip": "123.235.32.19",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A24297",
+    "source_ip": "123.235.32.19",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A24299",
+    "source_ip": "123.235.32.19",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A24301",
+    "source_ip": "123.235.32.19",
+    "target_user": null,
+    "rule_based_severity": "Low",
+    "matched_signatures": [],
+    "rationale": "No authentication-failure or success signatures matched; likely benign connection/disconnect."
+  },
+  {
+    "alert_id": "A24303",
+    "source_ip": "177.79.82.136",
+    "target_user": null,
+    "rule_based_severity": "Low",
+    "matched_signatures": [],
+    "rationale": "No authentication-failure or success signatures matched; likely benign connection/disconnect."
+  },
+  {
+    "alert_id": "A24318",
+    "source_ip": "183.136.162.51",
+    "target_user": "inspur",
+    "rule_based_severity": "Medium",
+    "matched_signatures": [
+      "failed",
+      "invalid_user"
+    ],
+    "rationale": "Signature match: authentication attempted against a non-existent account."
+  },
+  {
+    "alert_id": "A24321",
+    "source_ip": "191.210.223.172",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target",
+      "breakin"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A24323",
+    "source_ip": "195.154.37.122",
+    "target_user": null,
+    "rule_based_severity": "Low",
+    "matched_signatures": [],
+    "rationale": "No authentication-failure or success signatures matched; likely benign connection/disconnect."
+  },
+  {
+    "alert_id": "A24324",
+    "source_ip": "195.154.37.122",
+    "target_user": "support",
+    "rule_based_severity": "Medium",
+    "matched_signatures": [
+      "failed",
+      "invalid_user",
+      "breakin"
+    ],
+    "rationale": "Signature match: authentication attempted against a non-existent account."
+  },
+  {
+    "alert_id": "A24326",
+    "source_ip": "195.154.37.122",
+    "target_user": "uucp",
+    "rule_based_severity": "Medium",
+    "matched_signatures": [
+      "failed",
+      "breakin",
+      "valid_account"
+    ],
+    "rationale": "Signature match: failed password against an existing non-root account."
+  },
+  {
+    "alert_id": "A24329",
+    "source_ip": "194.190.163.22",
+    "target_user": null,
+    "rule_based_severity": "Low",
+    "matched_signatures": [],
+    "rationale": "No authentication-failure or success signatures matched; likely benign connection/disconnect."
+  },
+  {
+    "alert_id": "A24331",
+    "source_ip": "52.80.34.196",
+    "target_user": "test",
+    "rule_based_severity": "Medium",
+    "matched_signatures": [
+      "failed",
+      "invalid_user"
+    ],
+    "rationale": "Signature match: authentication attempted against a non-existent account."
+  },
+  {
+    "alert_id": "A24333",
+    "source_ip": "103.207.39.165",
+    "target_user": null,
+    "rule_based_severity": "Low",
+    "matched_signatures": [],
+    "rationale": "No authentication-failure or success signatures matched; likely benign connection/disconnect."
+  },
+  {
+    "alert_id": "A24334",
+    "source_ip": "103.207.39.165",
+    "target_user": "support",
+    "rule_based_severity": "Medium",
+    "matched_signatures": [
+      "failed",
+      "invalid_user"
+    ],
+    "rationale": "Signature match: authentication attempted against a non-existent account."
+  },
+  {
+    "alert_id": "A24336",
+    "source_ip": "194.190.163.22",
+    "target_user": null,
+    "rule_based_severity": "Low",
+    "matched_signatures": [],
+    "rationale": "No authentication-failure or success signatures matched; likely benign connection/disconnect."
+  },
+  {
+    "alert_id": "A24338",
+    "source_ip": "175.102.13.6",
+    "target_user": "inspur",
+    "rule_based_severity": "Medium",
+    "matched_signatures": [
+      "failed",
+      "invalid_user"
+    ],
+    "rationale": "Signature match: authentication attempted against a non-existent account."
+  },
+  {
+    "alert_id": "A24358",
+    "source_ip": "194.190.163.22",
+    "target_user": null,
+    "rule_based_severity": "Low",
+    "matched_signatures": [],
+    "rationale": "No authentication-failure or success signatures matched; likely benign connection/disconnect."
+  },
+  {
+    "alert_id": "A24361",
+    "source_ip": "5.188.10.180",
+    "target_user": "invalid",
+    "rule_based_severity": "Medium",
+    "matched_signatures": [
+      "failed",
+      "invalid_user"
+    ],
+    "rationale": "Signature match: authentication attempted against a non-existent account."
+  },
+  {
+    "alert_id": "A24363",
+    "source_ip": "5.188.10.180",
+    "target_user": "0",
+    "rule_based_severity": "Medium",
+    "matched_signatures": [
+      "failed",
+      "invalid_user"
+    ],
+    "rationale": "Signature match: authentication attempted against a non-existent account."
+  },
+  {
+    "alert_id": "A24365",
+    "source_ip": "5.188.10.180",
+    "target_user": "1234",
+    "rule_based_severity": "Medium",
+    "matched_signatures": [
+      "failed",
+      "invalid_user"
+    ],
+    "rationale": "Signature match: authentication attempted against a non-existent account."
+  },
+  {
+    "alert_id": "A24367",
+    "source_ip": "5.188.10.180",
+    "target_user": "admin",
+    "rule_based_severity": "Medium",
+    "matched_signatures": [
+      "invalid_user"
+    ],
+    "rationale": "Signature match: authentication attempted against a non-existent account."
+  },
+  {
+    "alert_id": "A24369",
+    "source_ip": "5.188.10.180",
+    "target_user": "admin",
+    "rule_based_severity": "Medium",
+    "matched_signatures": [
+      "failed",
+      "invalid_user"
+    ],
+    "rationale": "Signature match: authentication attempted against a non-existent account."
+  },
+  {
+    "alert_id": "A24371",
+    "source_ip": "5.188.10.180",
+    "target_user": "admin",
+    "rule_based_severity": "Medium",
+    "matched_signatures": [
+      "failed",
+      "invalid_user"
+    ],
+    "rationale": "Signature match: authentication attempted against a non-existent account."
+  },
+  {
+    "alert_id": "A24373",
+    "source_ip": "5.188.10.180",
+    "target_user": "admin",
+    "rule_based_severity": "Medium",
+    "matched_signatures": [
+      "failed",
+      "invalid_user"
+    ],
+    "rationale": "Signature match: authentication attempted against a non-existent account."
+  },
+  {
+    "alert_id": "A24375",
+    "source_ip": "5.188.10.180",
+    "target_user": "default",
+    "rule_based_severity": "Medium",
+    "matched_signatures": [
+      "failed",
+      "invalid_user"
+    ],
+    "rationale": "Signature match: authentication attempted against a non-existent account."
+  },
+  {
+    "alert_id": "A24377",
+    "source_ip": "5.188.10.180",
+    "target_user": "ftp",
+    "rule_based_severity": "Medium",
+    "matched_signatures": [
+      "failed",
+      "valid_account"
+    ],
+    "rationale": "Signature match: failed password against an existing non-root account."
+  },
+  {
+    "alert_id": "A24379",
+    "source_ip": "5.188.10.180",
+    "target_user": "guest",
+    "rule_based_severity": "Medium",
+    "matched_signatures": [
+      "failed",
+      "invalid_user"
+    ],
+    "rationale": "Signature match: authentication attempted against a non-existent account."
+  },
+  {
+    "alert_id": "A24381",
+    "source_ip": "5.188.10.180",
+    "target_user": null,
+    "rule_based_severity": "Low",
+    "matched_signatures": [],
+    "rationale": "No authentication-failure or success signatures matched; likely benign connection/disconnect."
+  },
+  {
+    "alert_id": "A24383",
+    "source_ip": "5.188.10.180",
+    "target_user": null,
+    "rule_based_severity": "Low",
+    "matched_signatures": [],
+    "rationale": "No authentication-failure or success signatures matched; likely benign connection/disconnect."
+  },
+  {
+    "alert_id": "A24384",
+    "source_ip": "103.207.39.212",
+    "target_user": null,
+    "rule_based_severity": "Low",
+    "matched_signatures": [],
+    "rationale": "No authentication-failure or success signatures matched; likely benign connection/disconnect."
+  },
+  {
+    "alert_id": "A24385",
+    "source_ip": "103.207.39.212",
+    "target_user": "support",
+    "rule_based_severity": "Medium",
+    "matched_signatures": [
+      "failed",
+      "invalid_user"
+    ],
+    "rationale": "Signature match: authentication attempted against a non-existent account."
+  },
+  {
+    "alert_id": "A24387",
+    "source_ip": "103.207.39.212",
+    "target_user": "uucp",
+    "rule_based_severity": "Medium",
+    "matched_signatures": [
+      "failed",
+      "valid_account"
+    ],
+    "rationale": "Signature match: failed password against an existing non-root account."
+  },
+  {
+    "alert_id": "A24389",
+    "source_ip": "103.207.39.212",
+    "target_user": "admin",
+    "rule_based_severity": "Medium",
+    "matched_signatures": [
+      "failed",
+      "invalid_user"
+    ],
+    "rationale": "Signature match: authentication attempted against a non-existent account."
+  },
+  {
+    "alert_id": "A24391",
+    "source_ip": "194.190.163.22",
+    "target_user": null,
+    "rule_based_severity": "Low",
+    "matched_signatures": [],
+    "rationale": "No authentication-failure or success signatures matched; likely benign connection/disconnect."
+  },
+  {
+    "alert_id": "A24408",
+    "source_ip": "106.5.5.195",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target",
+      "repeated"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A24410",
+    "source_ip": "52.80.34.196",
+    "target_user": "matlab",
+    "rule_based_severity": "Medium",
+    "matched_signatures": [
+      "failed",
+      "invalid_user"
+    ],
+    "rationale": "Signature match: authentication attempted against a non-existent account."
+  },
+  {
+    "alert_id": "A24414",
+    "source_ip": "188.132.244.89",
+    "target_user": null,
+    "rule_based_severity": "Low",
+    "matched_signatures": [],
+    "rationale": "No authentication-failure or success signatures matched; likely benign connection/disconnect."
+  },
+  {
+    "alert_id": "A24415",
+    "source_ip": "185.190.58.151",
+    "target_user": "0",
+    "rule_based_severity": "Medium",
+    "matched_signatures": [
+      "invalid_user"
+    ],
+    "rationale": "Signature match: authentication attempted against a non-existent account."
+  },
+  {
+    "alert_id": "A24417",
+    "source_ip": "185.190.58.151",
+    "target_user": "123",
+    "rule_based_severity": "Medium",
+    "matched_signatures": [
+      "failed",
+      "invalid_user"
+    ],
+    "rationale": "Signature match: authentication attempted against a non-existent account."
+  },
+  {
+    "alert_id": "A24419",
+    "source_ip": "185.190.58.151",
+    "target_user": "admin",
+    "rule_based_severity": "Medium",
+    "matched_signatures": [
+      "failed",
+      "invalid_user"
+    ],
+    "rationale": "Signature match: authentication attempted against a non-existent account."
+  },
+  {
+    "alert_id": "A24421",
+    "source_ip": "185.190.58.151",
+    "target_user": "admin",
+    "rule_based_severity": "Medium",
+    "matched_signatures": [
+      "failed",
+      "invalid_user"
+    ],
+    "rationale": "Signature match: authentication attempted against a non-existent account."
+  },
+  {
+    "alert_id": "A24437",
+    "source_ip": "185.190.58.151",
+    "target_user": "admin",
+    "rule_based_severity": "Medium",
+    "matched_signatures": [
+      "failed",
+      "invalid_user"
+    ],
+    "rationale": "Signature match: authentication attempted against a non-existent account."
+  },
+  {
+    "alert_id": "A24439",
+    "source_ip": "103.99.0.122",
+    "target_user": "admin",
+    "rule_based_severity": "Medium",
+    "matched_signatures": [
+      "failed",
+      "invalid_user"
+    ],
+    "rationale": "Signature match: authentication attempted against a non-existent account."
+  },
+  {
+    "alert_id": "A24441",
+    "source_ip": "103.99.0.122",
+    "target_user": "support",
+    "rule_based_severity": "Medium",
+    "matched_signatures": [
+      "failed",
+      "invalid_user"
+    ],
+    "rationale": "Signature match: authentication attempted against a non-existent account."
+  },
+  {
+    "alert_id": "A24443",
+    "source_ip": "103.99.0.122",
+    "target_user": "user",
+    "rule_based_severity": "Medium",
+    "matched_signatures": [
+      "failed",
+      "invalid_user"
+    ],
+    "rationale": "Signature match: authentication attempted against a non-existent account."
+  },
+  {
+    "alert_id": "A24445",
+    "source_ip": "103.99.0.122",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A24447",
+    "source_ip": "103.99.0.122",
+    "target_user": "1234",
+    "rule_based_severity": "Medium",
+    "matched_signatures": [
+      "failed",
+      "invalid_user"
+    ],
+    "rationale": "Signature match: authentication attempted against a non-existent account."
+  },
+  {
+    "alert_id": "A24449",
+    "source_ip": "103.99.0.122",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A24451",
+    "source_ip": "103.99.0.122",
+    "target_user": "anonymous",
+    "rule_based_severity": "Medium",
+    "matched_signatures": [
+      "failed",
+      "invalid_user"
+    ],
+    "rationale": "Signature match: authentication attempted against a non-existent account."
+  },
+  {
+    "alert_id": "A24453",
+    "source_ip": "103.99.0.122",
+    "target_user": "admin",
+    "rule_based_severity": "Medium",
+    "matched_signatures": [
+      "failed",
+      "invalid_user"
+    ],
+    "rationale": "Signature match: authentication attempted against a non-existent account."
+  },
+  {
+    "alert_id": "A24456",
+    "source_ip": "103.99.0.122",
+    "target_user": "ubnt",
+    "rule_based_severity": "Medium",
+    "matched_signatures": [
+      "failed",
+      "invalid_user"
+    ],
+    "rationale": "Signature match: authentication attempted against a non-existent account."
+  },
+  {
+    "alert_id": "A24458",
+    "source_ip": "103.99.0.122",
+    "target_user": "uucp",
+    "rule_based_severity": "Medium",
+    "matched_signatures": [
+      "failed",
+      "valid_account"
+    ],
+    "rationale": "Signature match: failed password against an existing non-root account."
+  },
+  {
+    "alert_id": "A24460",
+    "source_ip": "103.99.0.122",
+    "target_user": "sshd",
+    "rule_based_severity": "Medium",
+    "matched_signatures": [
+      "failed",
+      "valid_account"
+    ],
+    "rationale": "Signature match: failed password against an existing non-root account."
+  },
+  {
+    "alert_id": "A24462",
+    "source_ip": "103.99.0.122",
+    "target_user": "admin",
+    "rule_based_severity": "Medium",
+    "matched_signatures": [
+      "failed",
+      "invalid_user"
+    ],
+    "rationale": "Signature match: authentication attempted against a non-existent account."
+  },
+  {
+    "alert_id": "A24464",
+    "source_ip": "103.99.0.122",
+    "target_user": "cisco",
+    "rule_based_severity": "Medium",
+    "matched_signatures": [
+      "failed",
+      "invalid_user"
+    ],
+    "rationale": "Signature match: authentication attempted against a non-existent account."
+  },
+  {
+    "alert_id": "A24467",
+    "source_ip": "103.99.0.122",
+    "target_user": "test",
+    "rule_based_severity": "Medium",
+    "matched_signatures": [
+      "failed",
+      "invalid_user"
+    ],
+    "rationale": "Signature match: authentication attempted against a non-existent account."
+  },
+  {
+    "alert_id": "A24469",
+    "source_ip": "103.99.0.122",
+    "target_user": "guest",
+    "rule_based_severity": "Medium",
+    "matched_signatures": [
+      "failed",
+      "invalid_user"
+    ],
+    "rationale": "Signature match: authentication attempted against a non-existent account."
+  },
+  {
+    "alert_id": "A24471",
+    "source_ip": "103.99.0.122",
+    "target_user": "user",
+    "rule_based_severity": "Medium",
+    "matched_signatures": [
+      "failed",
+      "invalid_user"
+    ],
+    "rationale": "Signature match: authentication attempted against a non-existent account."
+  },
+  {
+    "alert_id": "A24473",
+    "source_ip": "103.99.0.122",
+    "target_user": "operator",
+    "rule_based_severity": "Medium",
+    "matched_signatures": [
+      "failed",
+      "invalid_user"
+    ],
+    "rationale": "Signature match: authentication attempted against a non-existent account."
+  },
+  {
+    "alert_id": "A24455",
+    "source_ip": "185.190.58.151",
+    "target_user": "admin",
+    "rule_based_severity": "Medium",
+    "matched_signatures": [
+      "failed",
+      "invalid_user"
+    ],
+    "rationale": "Signature match: authentication attempted against a non-existent account."
+  },
+  {
+    "alert_id": "A24475",
+    "source_ip": "103.99.0.122",
+    "target_user": "admin",
+    "rule_based_severity": "Medium",
+    "matched_signatures": [
+      "failed",
+      "invalid_user"
+    ],
+    "rationale": "Signature match: authentication attempted against a non-existent account."
+  },
+  {
+    "alert_id": "A24477",
+    "source_ip": "103.99.0.122",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A24479",
+    "source_ip": "103.99.0.122",
+    "target_user": "admin",
+    "rule_based_severity": "Medium",
+    "matched_signatures": [
+      "failed",
+      "invalid_user"
+    ],
+    "rationale": "Signature match: authentication attempted against a non-existent account."
+  },
+  {
+    "alert_id": "A24481",
+    "source_ip": "103.99.0.122",
+    "target_user": "admin",
+    "rule_based_severity": "Medium",
+    "matched_signatures": [
+      "failed",
+      "invalid_user"
+    ],
+    "rationale": "Signature match: authentication attempted against a non-existent account."
+  },
+  {
+    "alert_id": "A24483",
+    "source_ip": "103.99.0.122",
+    "target_user": "admin",
+    "rule_based_severity": "Medium",
+    "matched_signatures": [
+      "failed",
+      "invalid_user"
+    ],
+    "rationale": "Signature match: authentication attempted against a non-existent account."
+  },
+  {
+    "alert_id": "A24485",
+    "source_ip": "103.99.0.122",
+    "target_user": "ftp",
+    "rule_based_severity": "Medium",
+    "matched_signatures": [
+      "failed",
+      "valid_account"
+    ],
+    "rationale": "Signature match: failed password against an existing non-root account."
+  },
+  {
+    "alert_id": "A24488",
+    "source_ip": "103.99.0.122",
+    "target_user": "monitor",
+    "rule_based_severity": "Medium",
+    "matched_signatures": [
+      "failed",
+      "invalid_user"
+    ],
+    "rationale": "Signature match: authentication attempted against a non-existent account."
+  },
+  {
+    "alert_id": "A24490",
+    "source_ip": "103.99.0.122",
+    "target_user": "ftpuser",
+    "rule_based_severity": "Medium",
+    "matched_signatures": [
+      "failed",
+      "invalid_user"
+    ],
+    "rationale": "Signature match: authentication attempted against a non-existent account."
+  },
+  {
+    "alert_id": "A24492",
+    "source_ip": "103.99.0.122",
+    "target_user": "pi",
+    "rule_based_severity": "Medium",
+    "matched_signatures": [
+      "failed",
+      "invalid_user"
+    ],
+    "rationale": "Signature match: authentication attempted against a non-existent account."
+  },
+  {
+    "alert_id": "A24494",
+    "source_ip": "103.99.0.122",
+    "target_user": "PlcmSpIp",
+    "rule_based_severity": "Medium",
+    "matched_signatures": [
+      "failed",
+      "invalid_user"
+    ],
+    "rationale": "Signature match: authentication attempted against a non-existent account."
+  },
+  {
+    "alert_id": "A24497",
+    "source_ip": "103.99.0.122",
+    "target_user": "Management",
+    "rule_based_severity": "Medium",
+    "matched_signatures": [
+      "failed",
+      "invalid_user"
+    ],
+    "rationale": "Signature match: authentication attempted against a non-existent account."
+  },
+  {
+    "alert_id": "A24499",
+    "source_ip": "103.99.0.122",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A24501",
+    "source_ip": "103.99.0.122",
+    "target_user": "ftpuser",
+    "rule_based_severity": "Medium",
+    "matched_signatures": [
+      "failed",
+      "invalid_user"
+    ],
+    "rationale": "Signature match: authentication attempted against a non-existent account."
+  },
+  {
+    "alert_id": "A24503",
+    "source_ip": "187.141.143.180",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target",
+      "breakin"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A24505",
+    "source_ip": "187.141.143.180",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target",
+      "breakin"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A24487",
+    "source_ip": "185.190.58.151",
+    "target_user": "api",
+    "rule_based_severity": "Medium",
+    "matched_signatures": [
+      "failed",
+      "invalid_user"
+    ],
+    "rationale": "Signature match: authentication attempted against a non-existent account."
+  },
+  {
+    "alert_id": "A24507",
+    "source_ip": "187.141.143.180",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target",
+      "breakin"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A24509",
+    "source_ip": "187.141.143.180",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target",
+      "breakin"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A24512",
+    "source_ip": "187.141.143.180",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target",
+      "breakin"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A24514",
+    "source_ip": "187.141.143.180",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target",
+      "breakin"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A24516",
+    "source_ip": "187.141.143.180",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target",
+      "breakin"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A24511",
+    "source_ip": "185.190.58.151",
+    "target_user": null,
+    "rule_based_severity": "Low",
+    "matched_signatures": [],
+    "rationale": "No authentication-failure or success signatures matched; likely benign connection/disconnect."
+  },
+  {
+    "alert_id": "A24518",
+    "source_ip": "187.141.143.180",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target",
+      "breakin"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A24520",
+    "source_ip": "187.141.143.180",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target",
+      "breakin"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A24522",
+    "source_ip": "187.141.143.180",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target",
+      "breakin"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A24525",
+    "source_ip": "187.141.143.180",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target",
+      "breakin"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A24527",
+    "source_ip": "187.141.143.180",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target",
+      "breakin"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A24529",
+    "source_ip": "187.141.143.180",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target",
+      "breakin"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A24531",
+    "source_ip": "187.141.143.180",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target",
+      "breakin"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A24533",
+    "source_ip": "187.141.143.180",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target",
+      "breakin"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A24535",
+    "source_ip": "187.141.143.180",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target",
+      "breakin"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A24537",
+    "source_ip": "187.141.143.180",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target",
+      "breakin"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A24539",
+    "source_ip": "187.141.143.180",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target",
+      "breakin"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A24541",
+    "source_ip": "187.141.143.180",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target",
+      "breakin"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A24543",
+    "source_ip": "187.141.143.180",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target",
+      "breakin"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A24545",
+    "source_ip": "187.141.143.180",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target",
+      "breakin"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A24547",
+    "source_ip": "187.141.143.180",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target",
+      "breakin"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A24549",
+    "source_ip": "187.141.143.180",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target",
+      "breakin"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A24551",
+    "source_ip": "187.141.143.180",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target",
+      "breakin"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A24553",
+    "source_ip": "187.141.143.180",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target",
+      "breakin"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A24555",
+    "source_ip": "187.141.143.180",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target",
+      "breakin"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A24557",
+    "source_ip": "187.141.143.180",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target",
+      "breakin"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A24559",
+    "source_ip": "187.141.143.180",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target",
+      "breakin"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A24561",
+    "source_ip": "187.141.143.180",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target",
+      "breakin"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A24563",
+    "source_ip": "187.141.143.180",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target",
+      "breakin"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A24565",
+    "source_ip": "187.141.143.180",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target",
+      "breakin"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A24567",
+    "source_ip": "187.141.143.180",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target",
+      "breakin"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A24569",
+    "source_ip": "187.141.143.180",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target",
+      "breakin"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A24571",
+    "source_ip": "187.141.143.180",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target",
+      "breakin"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A24573",
+    "source_ip": "187.141.143.180",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target",
+      "breakin"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A24575",
+    "source_ip": "187.141.143.180",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target",
+      "breakin"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A24577",
+    "source_ip": "187.141.143.180",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target",
+      "breakin"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A24579",
+    "source_ip": "187.141.143.180",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target",
+      "breakin"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A24581",
+    "source_ip": "187.141.143.180",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target",
+      "breakin"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A24583",
+    "source_ip": "187.141.143.180",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target",
+      "breakin"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A24585",
+    "source_ip": "187.141.143.180",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target",
+      "breakin"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A24587",
+    "source_ip": "187.141.143.180",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target",
+      "breakin"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A24589",
+    "source_ip": "187.141.143.180",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target",
+      "breakin"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A24591",
+    "source_ip": "187.141.143.180",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target",
+      "breakin"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A24593",
+    "source_ip": "187.141.143.180",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target",
+      "breakin"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A24595",
+    "source_ip": "187.141.143.180",
+    "target_user": "eoor",
+    "rule_based_severity": "Medium",
+    "matched_signatures": [
+      "failed",
+      "invalid_user",
+      "breakin"
+    ],
+    "rationale": "Signature match: authentication attempted against a non-existent account."
+  },
+  {
+    "alert_id": "A24597",
+    "source_ip": "187.141.143.180",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target",
+      "breakin"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A24599",
+    "source_ip": "187.141.143.180",
+    "target_user": "butter",
+    "rule_based_severity": "Medium",
+    "matched_signatures": [
+      "failed",
+      "invalid_user",
+      "breakin"
+    ],
+    "rationale": "Signature match: authentication attempted against a non-existent account."
+  },
+  {
+    "alert_id": "A24604",
+    "source_ip": "187.141.143.180",
+    "target_user": "redhat",
+    "rule_based_severity": "Medium",
+    "matched_signatures": [
+      "failed",
+      "invalid_user",
+      "breakin"
+    ],
+    "rationale": "Signature match: authentication attempted against a non-existent account."
+  },
+  {
+    "alert_id": "A24606",
+    "source_ip": "187.141.143.180",
+    "target_user": "oracle",
+    "rule_based_severity": "Medium",
+    "matched_signatures": [
+      "failed",
+      "invalid_user",
+      "breakin"
+    ],
+    "rationale": "Signature match: authentication attempted against a non-existent account."
+  },
+  {
+    "alert_id": "A24608",
+    "source_ip": "187.141.143.180",
+    "target_user": "oracle",
+    "rule_based_severity": "Medium",
+    "matched_signatures": [
+      "failed",
+      "invalid_user",
+      "breakin"
+    ],
+    "rationale": "Signature match: authentication attempted against a non-existent account."
+  },
+  {
+    "alert_id": "A24610",
+    "source_ip": "187.141.143.180",
+    "target_user": "oracle",
+    "rule_based_severity": "Medium",
+    "matched_signatures": [
+      "failed",
+      "invalid_user",
+      "breakin"
+    ],
+    "rationale": "Signature match: authentication attempted against a non-existent account."
+  },
+  {
+    "alert_id": "A24612",
+    "source_ip": "187.141.143.180",
+    "target_user": "postgres",
+    "rule_based_severity": "Medium",
+    "matched_signatures": [
+      "failed",
+      "invalid_user",
+      "breakin"
+    ],
+    "rationale": "Signature match: authentication attempted against a non-existent account."
+  },
+  {
+    "alert_id": "A24614",
+    "source_ip": "187.141.143.180",
+    "target_user": "nagios",
+    "rule_based_severity": "Medium",
+    "matched_signatures": [
+      "failed",
+      "invalid_user",
+      "breakin"
+    ],
+    "rationale": "Signature match: authentication attempted against a non-existent account."
+  },
+  {
+    "alert_id": "A24616",
+    "source_ip": "187.141.143.180",
+    "target_user": "www",
+    "rule_based_severity": "Medium",
+    "matched_signatures": [
+      "failed",
+      "invalid_user",
+      "breakin"
+    ],
+    "rationale": "Signature match: authentication attempted against a non-existent account."
+  },
+  {
+    "alert_id": "A24618",
+    "source_ip": "187.141.143.180",
+    "target_user": "abc",
+    "rule_based_severity": "Medium",
+    "matched_signatures": [
+      "failed",
+      "invalid_user",
+      "breakin"
+    ],
+    "rationale": "Signature match: authentication attempted against a non-existent account."
+  },
+  {
+    "alert_id": "A24620",
+    "source_ip": "187.141.143.180",
+    "target_user": "ted",
+    "rule_based_severity": "Medium",
+    "matched_signatures": [
+      "failed",
+      "invalid_user",
+      "breakin"
+    ],
+    "rationale": "Signature match: authentication attempted against a non-existent account."
+  },
+  {
+    "alert_id": "A24622",
+    "source_ip": "187.141.143.180",
+    "target_user": "vnc",
+    "rule_based_severity": "Medium",
+    "matched_signatures": [
+      "failed",
+      "invalid_user",
+      "breakin"
+    ],
+    "rationale": "Signature match: authentication attempted against a non-existent account."
+  },
+  {
+    "alert_id": "A24624",
+    "source_ip": "187.141.143.180",
+    "target_user": "git",
+    "rule_based_severity": "Medium",
+    "matched_signatures": [
+      "failed",
+      "breakin",
+      "valid_account"
+    ],
+    "rationale": "Signature match: failed password against an existing non-root account."
+  },
+  {
+    "alert_id": "A24626",
+    "source_ip": "187.141.143.180",
+    "target_user": "ghost",
+    "rule_based_severity": "Medium",
+    "matched_signatures": [
+      "failed",
+      "invalid_user",
+      "breakin"
+    ],
+    "rationale": "Signature match: authentication attempted against a non-existent account."
+  },
+  {
+    "alert_id": "A24628",
+    "source_ip": "187.141.143.180",
+    "target_user": "ubuntu",
+    "rule_based_severity": "Medium",
+    "matched_signatures": [
+      "failed",
+      "invalid_user",
+      "breakin"
+    ],
+    "rationale": "Signature match: authentication attempted against a non-existent account."
+  },
+  {
+    "alert_id": "A24630",
+    "source_ip": "187.141.143.180",
+    "target_user": "ftp",
+    "rule_based_severity": "Medium",
+    "matched_signatures": [
+      "failed",
+      "breakin",
+      "valid_account"
+    ],
+    "rationale": "Signature match: failed password against an existing non-root account."
+  },
+  {
+    "alert_id": "A24632",
+    "source_ip": "187.141.143.180",
+    "target_user": "test",
+    "rule_based_severity": "Medium",
+    "matched_signatures": [
+      "failed",
+      "invalid_user",
+      "breakin"
+    ],
+    "rationale": "Signature match: authentication attempted against a non-existent account."
+  },
+  {
+    "alert_id": "A24636",
+    "source_ip": "103.207.39.16",
+    "target_user": null,
+    "rule_based_severity": "Low",
+    "matched_signatures": [],
+    "rationale": "No authentication-failure or success signatures matched; likely benign connection/disconnect."
+  },
+  {
+    "alert_id": "A24637",
+    "source_ip": "103.207.39.16",
+    "target_user": "support",
+    "rule_based_severity": "Medium",
+    "matched_signatures": [
+      "failed",
+      "invalid_user"
+    ],
+    "rationale": "Signature match: authentication attempted against a non-existent account."
+  },
+  {
+    "alert_id": "A24634",
+    "source_ip": "187.141.143.180",
+    "target_user": "deploy",
+    "rule_based_severity": "Medium",
+    "matched_signatures": [
+      "failed",
+      "invalid_user",
+      "breakin"
+    ],
+    "rationale": "Signature match: authentication attempted against a non-existent account."
+  },
+  {
+    "alert_id": "A24639",
+    "source_ip": "103.207.39.16",
+    "target_user": "uucp",
+    "rule_based_severity": "Medium",
+    "matched_signatures": [
+      "failed",
+      "valid_account"
+    ],
+    "rationale": "Signature match: failed password against an existing non-root account."
+  },
+  {
+    "alert_id": "A24643",
+    "source_ip": "103.207.39.16",
+    "target_user": "admin",
+    "rule_based_severity": "Medium",
+    "matched_signatures": [
+      "failed",
+      "invalid_user"
+    ],
+    "rationale": "Signature match: authentication attempted against a non-existent account."
+  },
+  {
+    "alert_id": "A24641",
+    "source_ip": "187.141.143.180",
+    "target_user": "deploy",
+    "rule_based_severity": "Medium",
+    "matched_signatures": [
+      "failed",
+      "invalid_user",
+      "breakin"
+    ],
+    "rationale": "Signature match: authentication attempted against a non-existent account."
+  },
+  {
+    "alert_id": "A24645",
+    "source_ip": "187.141.143.180",
+    "target_user": "oralce",
+    "rule_based_severity": "Medium",
+    "matched_signatures": [
+      "failed",
+      "invalid_user",
+      "breakin"
+    ],
+    "rationale": "Signature match: authentication attempted against a non-existent account."
+  },
+  {
+    "alert_id": "A24647",
+    "source_ip": "187.141.143.180",
+    "target_user": "oracle",
+    "rule_based_severity": "Medium",
+    "matched_signatures": [
+      "failed",
+      "invalid_user",
+      "breakin"
+    ],
+    "rationale": "Signature match: authentication attempted against a non-existent account."
+  },
+  {
+    "alert_id": "A24649",
+    "source_ip": "187.141.143.180",
+    "target_user": "nagios1",
+    "rule_based_severity": "Medium",
+    "matched_signatures": [
+      "failed",
+      "invalid_user",
+      "breakin"
+    ],
+    "rationale": "Signature match: authentication attempted against a non-existent account."
+  },
+  {
+    "alert_id": "A24651",
+    "source_ip": "187.141.143.180",
+    "target_user": "postgres1",
+    "rule_based_severity": "Medium",
+    "matched_signatures": [
+      "failed",
+      "invalid_user",
+      "breakin"
+    ],
+    "rationale": "Signature match: authentication attempted against a non-existent account."
+  },
+  {
+    "alert_id": "A24653",
+    "source_ip": "187.141.143.180",
+    "target_user": "test1",
+    "rule_based_severity": "Medium",
+    "matched_signatures": [
+      "failed",
+      "invalid_user",
+      "breakin"
+    ],
+    "rationale": "Signature match: authentication attempted against a non-existent account."
+  },
+  {
+    "alert_id": "A24655",
+    "source_ip": "187.141.143.180",
+    "target_user": "test2",
+    "rule_based_severity": "Medium",
+    "matched_signatures": [
+      "failed",
+      "invalid_user",
+      "breakin"
+    ],
+    "rationale": "Signature match: authentication attempted against a non-existent account."
+  },
+  {
+    "alert_id": "A24657",
+    "source_ip": "187.141.143.180",
+    "target_user": "bssh",
+    "rule_based_severity": "Medium",
+    "matched_signatures": [
+      "failed",
+      "invalid_user",
+      "breakin"
+    ],
+    "rationale": "Signature match: authentication attempted against a non-existent account."
+  },
+  {
+    "alert_id": "A24659",
+    "source_ip": "187.141.143.180",
+    "target_user": "mysql",
+    "rule_based_severity": "Medium",
+    "matched_signatures": [
+      "failed",
+      "breakin",
+      "valid_account"
+    ],
+    "rationale": "Signature match: failed password against an existing non-root account."
+  },
+  {
+    "alert_id": "A24661",
+    "source_ip": "187.141.143.180",
+    "target_user": "mysql",
+    "rule_based_severity": "Medium",
+    "matched_signatures": [
+      "failed",
+      "breakin",
+      "valid_account"
+    ],
+    "rationale": "Signature match: failed password against an existing non-root account."
+  },
+  {
+    "alert_id": "A24663",
+    "source_ip": "187.141.143.180",
+    "target_user": "git",
+    "rule_based_severity": "Medium",
+    "matched_signatures": [
+      "failed",
+      "breakin",
+      "valid_account"
+    ],
+    "rationale": "Signature match: failed password against an existing non-root account."
+  },
+  {
+    "alert_id": "A24665",
+    "source_ip": "187.141.143.180",
+    "target_user": "magnos",
+    "rule_based_severity": "Medium",
+    "matched_signatures": [
+      "failed",
+      "invalid_user",
+      "breakin"
+    ],
+    "rationale": "Signature match: authentication attempted against a non-existent account."
+  },
+  {
+    "alert_id": "A24667",
+    "source_ip": "187.141.143.180",
+    "target_user": "magnos",
+    "rule_based_severity": "Medium",
+    "matched_signatures": [
+      "failed",
+      "invalid_user",
+      "breakin"
+    ],
+    "rationale": "Signature match: authentication attempted against a non-existent account."
+  },
+  {
+    "alert_id": "A24669",
+    "source_ip": "187.141.143.180",
+    "target_user": "ingrid",
+    "rule_based_severity": "Medium",
+    "matched_signatures": [
+      "failed",
+      "invalid_user",
+      "breakin"
+    ],
+    "rationale": "Signature match: authentication attempted against a non-existent account."
+  },
+  {
+    "alert_id": "A24671",
+    "source_ip": "187.141.143.180",
+    "target_user": "jay",
+    "rule_based_severity": "Medium",
+    "matched_signatures": [
+      "failed",
+      "invalid_user",
+      "breakin"
+    ],
+    "rationale": "Signature match: authentication attempted against a non-existent account."
+  },
+  {
+    "alert_id": "A24673",
+    "source_ip": "187.141.143.180",
+    "target_user": "cyrus",
+    "rule_based_severity": "Medium",
+    "matched_signatures": [
+      "failed",
+      "invalid_user",
+      "breakin"
+    ],
+    "rationale": "Signature match: authentication attempted against a non-existent account."
+  },
+  {
+    "alert_id": "A24676",
+    "source_ip": "104.192.3.34",
+    "target_user": "FILTER",
+    "rule_based_severity": "Medium",
+    "matched_signatures": [
+      "failed",
+      "invalid_user"
+    ],
+    "rationale": "Signature match: authentication attempted against a non-existent account."
+  },
+  {
+    "alert_id": "A24678",
+    "source_ip": "104.192.3.34",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A24680",
+    "source_ip": "119.137.62.142",
+    "target_user": "fztu",
+    "rule_based_severity": "Critical",
+    "matched_signatures": [
+      "accepted"
+    ],
+    "rationale": "Signature match: successful password authentication logged."
+  },
+  {
+    "alert_id": "A24787",
+    "source_ip": "52.80.34.196",
+    "target_user": "matlab",
+    "rule_based_severity": "Medium",
+    "matched_signatures": [
+      "failed",
+      "invalid_user"
+    ],
+    "rationale": "Signature match: authentication attempted against a non-existent account."
+  },
+  {
+    "alert_id": "A24761",
+    "source_ip": "119.137.62.142",
+    "target_user": null,
+    "rule_based_severity": "Low",
+    "matched_signatures": [],
+    "rationale": "No authentication-failure or success signatures matched; likely benign connection/disconnect."
+  },
+  {
+    "alert_id": "A24806",
+    "source_ip": "181.214.87.4",
+    "target_user": "0",
+    "rule_based_severity": "Medium",
+    "matched_signatures": [
+      "invalid_user"
+    ],
+    "rationale": "Signature match: authentication attempted against a non-existent account."
+  },
+  {
+    "alert_id": "A24808",
+    "source_ip": "181.214.87.4",
+    "target_user": null,
+    "rule_based_severity": "Low",
+    "matched_signatures": [],
+    "rationale": "No authentication-failure or success signatures matched; likely benign connection/disconnect."
+  },
+  {
+    "alert_id": "A24809",
+    "source_ip": "60.2.12.12",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A24811",
+    "source_ip": "60.2.12.12",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A24813",
+    "source_ip": "60.2.12.12",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A24815",
+    "source_ip": "60.2.12.12",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A24817",
+    "source_ip": "60.2.12.12",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A24833",
+    "source_ip": "119.4.203.64",
+    "target_user": "admin",
+    "rule_based_severity": "Medium",
+    "matched_signatures": [
+      "failed",
+      "invalid_user"
+    ],
+    "rationale": "Signature match: authentication attempted against a non-existent account."
+  },
+  {
+    "alert_id": "A24839",
+    "source_ip": "1.237.174.253",
+    "target_user": null,
+    "rule_based_severity": "Low",
+    "matched_signatures": [],
+    "rationale": "No authentication-failure or success signatures matched; likely benign connection/disconnect."
+  },
+  {
+    "alert_id": "A24841",
+    "source_ip": "52.80.34.196",
+    "target_user": "matlab",
+    "rule_based_severity": "Medium",
+    "matched_signatures": [
+      "failed",
+      "invalid_user"
+    ],
+    "rationale": "Signature match: authentication attempted against a non-existent account."
+  },
+  {
+    "alert_id": "A24844",
+    "source_ip": "183.136.162.51",
+    "target_user": "inspur",
+    "rule_based_severity": "Medium",
+    "matched_signatures": [
+      "failed",
+      "invalid_user"
+    ],
+    "rationale": "Signature match: authentication attempted against a non-existent account."
+  },
+  {
+    "alert_id": "A24846",
+    "source_ip": "1.237.174.253",
+    "target_user": null,
+    "rule_based_severity": "Low",
+    "matched_signatures": [],
+    "rationale": "No authentication-failure or success signatures matched; likely benign connection/disconnect."
+  },
+  {
+    "alert_id": "A24862",
+    "source_ip": "88.147.143.242",
+    "target_user": null,
+    "rule_based_severity": "Low",
+    "matched_signatures": [],
+    "rationale": "No authentication-failure or success signatures matched; likely benign connection/disconnect."
+  },
+  {
+    "alert_id": "A24865",
+    "source_ip": "1.237.174.253",
+    "target_user": null,
+    "rule_based_severity": "Low",
+    "matched_signatures": [],
+    "rationale": "No authentication-failure or success signatures matched; likely benign connection/disconnect."
+  },
+  {
+    "alert_id": "A24868",
+    "source_ip": "183.62.140.253",
+    "target_user": "zhangyan",
+    "rule_based_severity": "Medium",
+    "matched_signatures": [
+      "failed",
+      "invalid_user"
+    ],
+    "rationale": "Signature match: authentication attempted against a non-existent account."
+  },
+  {
+    "alert_id": "A24870",
+    "source_ip": "183.62.140.253",
+    "target_user": "dff",
+    "rule_based_severity": "Medium",
+    "matched_signatures": [
+      "failed",
+      "invalid_user"
+    ],
+    "rationale": "Signature match: authentication attempted against a non-existent account."
+  },
+  {
+    "alert_id": "A24872",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A24874",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A24877",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A24879",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A24882",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A24884",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A24886",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A24888",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A24890",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A24893",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A24896",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A24898",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A24900",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A24903",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A24905",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A24907",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A24909",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A24912",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A24917",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A24914",
+    "source_ip": "202.100.179.208",
+    "target_user": "cheng",
+    "rule_based_severity": "Medium",
+    "matched_signatures": [
+      "failed",
+      "invalid_user"
+    ],
+    "rationale": "Signature match: authentication attempted against a non-existent account."
+  },
+  {
+    "alert_id": "A24919",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A24921",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A24923",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A24925",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A24927",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A24929",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A24931",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A24933",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A24935",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A24937",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A24939",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A24942",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A24944",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A24947",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A24949",
+    "source_ip": "183.62.140.253",
+    "target_user": "oracle",
+    "rule_based_severity": "Medium",
+    "matched_signatures": [
+      "failed",
+      "invalid_user"
+    ],
+    "rationale": "Signature match: authentication attempted against a non-existent account."
+  },
+  {
+    "alert_id": "A24951",
+    "source_ip": "183.62.140.253",
+    "target_user": "test",
+    "rule_based_severity": "Medium",
+    "matched_signatures": [
+      "failed",
+      "invalid_user"
+    ],
+    "rationale": "Signature match: authentication attempted against a non-existent account."
+  },
+  {
+    "alert_id": "A24953",
+    "source_ip": "183.62.140.253",
+    "target_user": "oracle",
+    "rule_based_severity": "Medium",
+    "matched_signatures": [
+      "failed",
+      "invalid_user"
+    ],
+    "rationale": "Signature match: authentication attempted against a non-existent account."
+  },
+  {
+    "alert_id": "A24955",
+    "source_ip": "183.62.140.253",
+    "target_user": "ubuntu",
+    "rule_based_severity": "Medium",
+    "matched_signatures": [
+      "failed",
+      "invalid_user"
+    ],
+    "rationale": "Signature match: authentication attempted against a non-existent account."
+  },
+  {
+    "alert_id": "A24957",
+    "source_ip": "183.62.140.253",
+    "target_user": "git",
+    "rule_based_severity": "Medium",
+    "matched_signatures": [
+      "failed",
+      "valid_account"
+    ],
+    "rationale": "Signature match: failed password against an existing non-root account."
+  },
+  {
+    "alert_id": "A24959",
+    "source_ip": "183.62.140.253",
+    "target_user": "boot",
+    "rule_based_severity": "Medium",
+    "matched_signatures": [
+      "failed",
+      "invalid_user"
+    ],
+    "rationale": "Signature match: authentication attempted against a non-existent account."
+  },
+  {
+    "alert_id": "A24962",
+    "source_ip": "183.62.140.253",
+    "target_user": "123456",
+    "rule_based_severity": "Medium",
+    "matched_signatures": [
+      "failed",
+      "invalid_user"
+    ],
+    "rationale": "Signature match: authentication attempted against a non-existent account."
+  },
+  {
+    "alert_id": "A24964",
+    "source_ip": "183.62.140.253",
+    "target_user": "123",
+    "rule_based_severity": "Medium",
+    "matched_signatures": [
+      "failed",
+      "invalid_user"
+    ],
+    "rationale": "Signature match: authentication attempted against a non-existent account."
+  },
+  {
+    "alert_id": "A24966",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A24968",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A24970",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A24972",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A24975",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A24977",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A24979",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A24981",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A24983",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A24985",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A24987",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A24989",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A24992",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A24994",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A24997",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A24999",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25002",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25004",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25006",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25008",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25010",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25012",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25014",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25017",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25019",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25022",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25024",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25026",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25028",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25030",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25033",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25035",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25037",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25039",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25041",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25043",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25045",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25047",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25049",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25052",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25054",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25056",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25058",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25060",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25063",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25065",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25068",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25071",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25073",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25075",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25077",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25079",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25082",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25084",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25087",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25090",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25092",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25094",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25096",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25098",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25100",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25103",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25105",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25107",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25110",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25113",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25115",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25118",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25121",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25123",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25125",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25127",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25129",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25131",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25134",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25136",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25138",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25140",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25143",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25145",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25147",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25149",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25151",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25153",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25155",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25158",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25160",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25163",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25165",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25167",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25169",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25171",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25174",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25176",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25178",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25180",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25182",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25184",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25186",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25188",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25190",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25193",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25195",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25197",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25200",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25203",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25205",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25207",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25209",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25211",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25214",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25216",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25218",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25220",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25222",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25224",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25227",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25229",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25231",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25233",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25235",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25237",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25240",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25242",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25244",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25246",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25248",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25250",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25252",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25255",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25257",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25259",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25261",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25263",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25265",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25268",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25270",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25272",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25274",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25276",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25278",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25281",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25286",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25289",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25283",
+    "source_ip": "88.147.143.242",
+    "target_user": "sandeep",
+    "rule_based_severity": "Medium",
+    "matched_signatures": [
+      "failed",
+      "invalid_user"
+    ],
+    "rationale": "Signature match: authentication attempted against a non-existent account."
+  },
+  {
+    "alert_id": "A25291",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25294",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25296",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25298",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25300",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25302",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25304",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25306",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25309",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25311",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25313",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25315",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25317",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25320",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25322",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25324",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25326",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25328",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25330",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25332",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25334",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25336",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25338",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25340",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25343",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25346",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25348",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25350",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25352",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25355",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25357",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25360",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25362",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25364",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25366",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25368",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25370",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25372",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25374",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25376",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25378",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25380",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25382",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25384",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25386",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25388",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25390",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25392",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25394",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25397",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25399",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25401",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25404",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25407",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25409",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25411",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25413",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25415",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25417",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25419",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25422",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25424",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25426",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25428",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25430",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25432",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25434",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25436",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25438",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25440",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25442",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25444",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25446",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25450",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25448",
+    "source_ip": "103.99.0.122",
+    "target_user": "admin",
+    "rule_based_severity": "Medium",
+    "matched_signatures": [
+      "failed",
+      "invalid_user"
+    ],
+    "rationale": "Signature match: authentication attempted against a non-existent account."
+  },
+  {
+    "alert_id": "A25453",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25455",
+    "source_ip": "103.99.0.122",
+    "target_user": "support",
+    "rule_based_severity": "Medium",
+    "matched_signatures": [
+      "failed",
+      "invalid_user"
+    ],
+    "rationale": "Signature match: authentication attempted against a non-existent account."
+  },
+  {
+    "alert_id": "A25459",
+    "source_ip": "103.99.0.122",
+    "target_user": "user",
+    "rule_based_severity": "Medium",
+    "matched_signatures": [
+      "failed",
+      "invalid_user"
+    ],
+    "rationale": "Signature match: authentication attempted against a non-existent account."
+  },
+  {
+    "alert_id": "A25461",
+    "source_ip": "103.99.0.122",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25457",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25463",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25468",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25465",
+    "source_ip": "103.99.0.122",
+    "target_user": "1234",
+    "rule_based_severity": "Medium",
+    "matched_signatures": [
+      "failed",
+      "invalid_user"
+    ],
+    "rationale": "Signature match: authentication attempted against a non-existent account."
+  },
+  {
+    "alert_id": "A25470",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25474",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25472",
+    "source_ip": "103.99.0.122",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25476",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25478",
+    "source_ip": "103.99.0.122",
+    "target_user": "anonymous",
+    "rule_based_severity": "Medium",
+    "matched_signatures": [
+      "failed",
+      "invalid_user"
+    ],
+    "rationale": "Signature match: authentication attempted against a non-existent account."
+  },
+  {
+    "alert_id": "A25480",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25482",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25487",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25484",
+    "source_ip": "103.99.0.122",
+    "target_user": "admin",
+    "rule_based_severity": "Medium",
+    "matched_signatures": [
+      "failed",
+      "invalid_user"
+    ],
+    "rationale": "Signature match: authentication attempted against a non-existent account."
+  },
+  {
+    "alert_id": "A25490",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25494",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25492",
+    "source_ip": "103.99.0.122",
+    "target_user": "ubnt",
+    "rule_based_severity": "Medium",
+    "matched_signatures": [
+      "failed",
+      "invalid_user"
+    ],
+    "rationale": "Signature match: authentication attempted against a non-existent account."
+  },
+  {
+    "alert_id": "A25497",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25501",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25499",
+    "source_ip": "103.99.0.122",
+    "target_user": "uucp",
+    "rule_based_severity": "Medium",
+    "matched_signatures": [
+      "failed",
+      "valid_account"
+    ],
+    "rationale": "Signature match: failed password against an existing non-root account."
+  },
+  {
+    "alert_id": "A25503",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25508",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25505",
+    "source_ip": "103.99.0.122",
+    "target_user": "sshd",
+    "rule_based_severity": "Medium",
+    "matched_signatures": [
+      "failed",
+      "valid_account"
+    ],
+    "rationale": "Signature match: failed password against an existing non-root account."
+  },
+  {
+    "alert_id": "A25511",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25516",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25513",
+    "source_ip": "103.99.0.122",
+    "target_user": "admin",
+    "rule_based_severity": "Medium",
+    "matched_signatures": [
+      "failed",
+      "invalid_user"
+    ],
+    "rationale": "Signature match: authentication attempted against a non-existent account."
+  },
+  {
+    "alert_id": "A25519",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25523",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25521",
+    "source_ip": "103.99.0.122",
+    "target_user": "cisco",
+    "rule_based_severity": "Medium",
+    "matched_signatures": [
+      "failed",
+      "invalid_user"
+    ],
+    "rationale": "Signature match: authentication attempted against a non-existent account."
+  },
+  {
+    "alert_id": "A25525",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25527",
+    "source_ip": "103.99.0.122",
+    "target_user": "test",
+    "rule_based_severity": "Medium",
+    "matched_signatures": [
+      "failed",
+      "invalid_user"
+    ],
+    "rationale": "Signature match: authentication attempted against a non-existent account."
+  },
+  {
+    "alert_id": "A25530",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25532",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25534",
+    "source_ip": "103.99.0.122",
+    "target_user": "guest",
+    "rule_based_severity": "Medium",
+    "matched_signatures": [
+      "failed",
+      "invalid_user"
+    ],
+    "rationale": "Signature match: authentication attempted against a non-existent account."
+  },
+  {
+    "alert_id": "A25537",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25541",
+    "source_ip": "183.62.140.253",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25539",
+    "source_ip": "103.99.0.122",
+    "target_user": "user",
+    "rule_based_severity": "Medium",
+    "matched_signatures": [
+      "failed",
+      "invalid_user"
+    ],
+    "rationale": "Signature match: authentication attempted against a non-existent account."
+  },
+  {
+    "alert_id": "A25544",
+    "source_ip": "183.62.140.253",
+    "target_user": null,
+    "rule_based_severity": "Low",
+    "matched_signatures": [],
+    "rationale": "No authentication-failure or success signatures matched; likely benign connection/disconnect."
+  }
+]

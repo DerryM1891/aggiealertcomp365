@@ -1,0 +1,1200 @@
+[
+  {
+    "alert_id": "A24680",
+    "timestamp": "Dec 10 09:32:20",
+    "dest_host": "LabSZ",
+    "pid": "24680",
+    "source_ip": "119.137.62.142",
+    "target_user": "fztu",
+    "accepted_login": true,
+    "invalid_user_flag": false,
+    "failed_password": false,
+    "possible_breakin_flag": false,
+    "repeated_failures_count": null,
+    "event_ids": [
+      "E1",
+      "E23",
+      "E22"
+    ],
+    "raw_content": [
+      "Accepted password for fztu from 119.137.62.142 port 49116 ssh2",
+      "pam_unix(sshd:session): session opened for user fztu by (uid=0)",
+      "pam_unix(sshd:session): session closed for user fztu"
+    ],
+    "ground_truth_severity_v1": "Critical",
+    "ground_truth_severity": "Critical",
+    "valid_account_flag": false
+  },
+  {
+    "alert_id": "A24227",
+    "timestamp": "Dec 10 07:13:31",
+    "dest_host": "LabSZ",
+    "pid": "24227",
+    "source_ip": "5.36.59.76",
+    "target_user": "root",
+    "accepted_login": false,
+    "invalid_user_flag": false,
+    "failed_password": true,
+    "possible_breakin_flag": false,
+    "repeated_failures_count": 5,
+    "event_ids": [
+      "E20",
+      "E9",
+      "E14",
+      "E5",
+      "E17",
+      "E18"
+    ],
+    "raw_content": [
+      "pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=5.36.59.76.dynamic-dsl-ip.omantel.net.om  user=root",
+      "Failed password for root from 5.36.59.76 port 42393 ssh2",
+      "message repeated 5 times: [ Failed password for root from 5.36.59.76 port 42393 ssh2]",
+      "Disconnecting: Too many authentication failures for root [preauth]",
+      "PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=5.36.59.76.dynamic-dsl-ip.omantel.net.om  user=root",
+      "PAM service(sshd) ignoring max retries; 6 > 3"
+    ],
+    "ground_truth_severity_v1": "High",
+    "ground_truth_severity": "High",
+    "valid_account_flag": false
+  },
+  {
+    "alert_id": "A24408",
+    "timestamp": "Dec 10 08:39:47",
+    "dest_host": "LabSZ",
+    "pid": "24408",
+    "source_ip": "106.5.5.195",
+    "target_user": "root",
+    "accepted_login": false,
+    "invalid_user_flag": false,
+    "failed_password": true,
+    "possible_breakin_flag": false,
+    "repeated_failures_count": 5,
+    "event_ids": [
+      "E20",
+      "E9",
+      "E14",
+      "E5",
+      "E17",
+      "E18"
+    ],
+    "raw_content": [
+      "pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=106.5.5.195  user=root",
+      "Failed password for root from 106.5.5.195 port 50719 ssh2",
+      "message repeated 5 times: [ Failed password for root from 106.5.5.195 port 50719 ssh2]",
+      "Disconnecting: Too many authentication failures for root [preauth]",
+      "PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=106.5.5.195  user=root",
+      "PAM service(sshd) ignoring max retries; 6 > 3"
+    ],
+    "ground_truth_severity_v1": "High",
+    "ground_truth_severity": "High",
+    "valid_account_flag": false
+  },
+  {
+    "alert_id": "A24667",
+    "timestamp": "Dec 10 09:19:42",
+    "dest_host": "LabSZ",
+    "pid": "24667",
+    "source_ip": "187.141.143.180",
+    "target_user": "magnos",
+    "accepted_login": false,
+    "invalid_user_flag": true,
+    "failed_password": true,
+    "possible_breakin_flag": true,
+    "repeated_failures_count": null,
+    "event_ids": [
+      "E27",
+      "E13",
+      "E12",
+      "E21",
+      "E19",
+      "E10",
+      "E24"
+    ],
+    "raw_content": [
+      "reverse mapping checking getaddrinfo for customer-187-141-143-180-sta.uninet-ide.com.mx [187.141.143.180] failed - POSSIBLE BREAK-IN ATTEMPT!",
+      "Invalid user magnos from 187.141.143.180",
+      "input_userauth_request: invalid user magnos [preauth]",
+      "pam_unix(sshd:auth): check pass; user unknown",
+      "pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=187.141.143.180",
+      "Failed password for invalid user magnos from 187.141.143.180 port 57031 ssh2",
+      "Received disconnect from 187.141.143.180: 11: Bye Bye [preauth]"
+    ],
+    "ground_truth_severity_v1": "Medium",
+    "ground_truth_severity": "Medium",
+    "valid_account_flag": false
+  },
+  {
+    "alert_id": "A24522",
+    "timestamp": "Dec 10 09:13:36",
+    "dest_host": "LabSZ",
+    "pid": "24522",
+    "source_ip": "187.141.143.180",
+    "target_user": "root",
+    "accepted_login": false,
+    "invalid_user_flag": false,
+    "failed_password": true,
+    "possible_breakin_flag": true,
+    "repeated_failures_count": null,
+    "event_ids": [
+      "E27",
+      "E20",
+      "E9",
+      "E24"
+    ],
+    "raw_content": [
+      "reverse mapping checking getaddrinfo for customer-187-141-143-180-sta.uninet-ide.com.mx [187.141.143.180] failed - POSSIBLE BREAK-IN ATTEMPT!",
+      "pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=187.141.143.180  user=root",
+      "Failed password for root from 187.141.143.180 port 44328 ssh2",
+      "Received disconnect from 187.141.143.180: 11: Bye Bye [preauth]"
+    ],
+    "ground_truth_severity_v1": "High",
+    "ground_truth_severity": "High",
+    "valid_account_flag": false
+  },
+  {
+    "alert_id": "A24324",
+    "timestamp": "Dec 10 07:51:12",
+    "dest_host": "LabSZ",
+    "pid": "24324",
+    "source_ip": "195.154.37.122",
+    "target_user": "support",
+    "accepted_login": false,
+    "invalid_user_flag": true,
+    "failed_password": true,
+    "possible_breakin_flag": true,
+    "repeated_failures_count": null,
+    "event_ids": [
+      "E27",
+      "E13",
+      "E12",
+      "E21",
+      "E19",
+      "E10",
+      "E6"
+    ],
+    "raw_content": [
+      "reverse mapping checking getaddrinfo for 195-154-37-122.rev.poneytelecom.eu [195.154.37.122] failed - POSSIBLE BREAK-IN ATTEMPT!",
+      "Invalid user support from 195.154.37.122",
+      "input_userauth_request: invalid user support [preauth]",
+      "pam_unix(sshd:auth): check pass; user unknown",
+      "pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=195.154.37.122",
+      "Failed password for invalid user support from 195.154.37.122 port 56539 ssh2",
+      "error: Received disconnect from 195.154.37.122: 3: com.jcraft.jsch.JSchException: Auth fail [preauth]"
+    ],
+    "ground_truth_severity_v1": "Medium",
+    "ground_truth_severity": "Medium",
+    "valid_account_flag": false
+  },
+  {
+    "alert_id": "A24565",
+    "timestamp": "Dec 10 09:15:29",
+    "dest_host": "LabSZ",
+    "pid": "24565",
+    "source_ip": "187.141.143.180",
+    "target_user": "root",
+    "accepted_login": false,
+    "invalid_user_flag": false,
+    "failed_password": true,
+    "possible_breakin_flag": true,
+    "repeated_failures_count": null,
+    "event_ids": [
+      "E27",
+      "E20",
+      "E9",
+      "E24"
+    ],
+    "raw_content": [
+      "reverse mapping checking getaddrinfo for customer-187-141-143-180-sta.uninet-ide.com.mx [187.141.143.180] failed - POSSIBLE BREAK-IN ATTEMPT!",
+      "pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=187.141.143.180  user=root",
+      "Failed password for root from 187.141.143.180 port 42938 ssh2",
+      "Received disconnect from 187.141.143.180: 11: Bye Bye [preauth]"
+    ],
+    "ground_truth_severity_v1": "High",
+    "ground_truth_severity": "High",
+    "valid_account_flag": false
+  },
+  {
+    "alert_id": "A24557",
+    "timestamp": "Dec 10 09:15:07",
+    "dest_host": "LabSZ",
+    "pid": "24557",
+    "source_ip": "187.141.143.180",
+    "target_user": "root",
+    "accepted_login": false,
+    "invalid_user_flag": false,
+    "failed_password": true,
+    "possible_breakin_flag": true,
+    "repeated_failures_count": null,
+    "event_ids": [
+      "E27",
+      "E20",
+      "E9",
+      "E24"
+    ],
+    "raw_content": [
+      "reverse mapping checking getaddrinfo for customer-187-141-143-180-sta.uninet-ide.com.mx [187.141.143.180] failed - POSSIBLE BREAK-IN ATTEMPT!",
+      "pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=187.141.143.180  user=root",
+      "Failed password for root from 187.141.143.180 port 37678 ssh2",
+      "Received disconnect from 187.141.143.180: 11: Bye Bye [preauth]"
+    ],
+    "ground_truth_severity_v1": "High",
+    "ground_truth_severity": "High",
+    "valid_account_flag": false
+  },
+  {
+    "alert_id": "A24551",
+    "timestamp": "Dec 10 09:14:52",
+    "dest_host": "LabSZ",
+    "pid": "24551",
+    "source_ip": "187.141.143.180",
+    "target_user": "root",
+    "accepted_login": false,
+    "invalid_user_flag": false,
+    "failed_password": true,
+    "possible_breakin_flag": true,
+    "repeated_failures_count": null,
+    "event_ids": [
+      "E27",
+      "E20",
+      "E9",
+      "E24"
+    ],
+    "raw_content": [
+      "reverse mapping checking getaddrinfo for customer-187-141-143-180-sta.uninet-ide.com.mx [187.141.143.180] failed - POSSIBLE BREAK-IN ATTEMPT!",
+      "pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=187.141.143.180  user=root",
+      "Failed password for root from 187.141.143.180 port 34001 ssh2",
+      "Received disconnect from 187.141.143.180: 11: Bye Bye [preauth]"
+    ],
+    "ground_truth_severity_v1": "High",
+    "ground_truth_severity": "High",
+    "valid_account_flag": false
+  },
+  {
+    "alert_id": "A24529",
+    "timestamp": "Dec 10 09:13:53",
+    "dest_host": "LabSZ",
+    "pid": "24529",
+    "source_ip": "187.141.143.180",
+    "target_user": "root",
+    "accepted_login": false,
+    "invalid_user_flag": false,
+    "failed_password": true,
+    "possible_breakin_flag": true,
+    "repeated_failures_count": null,
+    "event_ids": [
+      "E27",
+      "E20",
+      "E9",
+      "E24"
+    ],
+    "raw_content": [
+      "reverse mapping checking getaddrinfo for customer-187-141-143-180-sta.uninet-ide.com.mx [187.141.143.180] failed - POSSIBLE BREAK-IN ATTEMPT!",
+      "pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=187.141.143.180  user=root",
+      "Failed password for root from 187.141.143.180 port 48339 ssh2",
+      "Received disconnect from 187.141.143.180: 11: Bye Bye [preauth]"
+    ],
+    "ground_truth_severity_v1": "High",
+    "ground_truth_severity": "High",
+    "valid_account_flag": false
+  },
+  {
+    "alert_id": "A24520",
+    "timestamp": "Dec 10 09:13:30",
+    "dest_host": "LabSZ",
+    "pid": "24520",
+    "source_ip": "187.141.143.180",
+    "target_user": "root",
+    "accepted_login": false,
+    "invalid_user_flag": false,
+    "failed_password": true,
+    "possible_breakin_flag": true,
+    "repeated_failures_count": null,
+    "event_ids": [
+      "E27",
+      "E20",
+      "E9",
+      "E24"
+    ],
+    "raw_content": [
+      "reverse mapping checking getaddrinfo for customer-187-141-143-180-sta.uninet-ide.com.mx [187.141.143.180] failed - POSSIBLE BREAK-IN ATTEMPT!",
+      "pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=187.141.143.180  user=root",
+      "Failed password for root from 187.141.143.180 port 43092 ssh2",
+      "Received disconnect from 187.141.143.180: 11: Bye Bye [preauth]"
+    ],
+    "ground_truth_severity_v1": "High",
+    "ground_truth_severity": "High",
+    "valid_account_flag": false
+  },
+  {
+    "alert_id": "A24641",
+    "timestamp": "Dec 10 09:18:33",
+    "dest_host": "LabSZ",
+    "pid": "24641",
+    "source_ip": "187.141.143.180",
+    "target_user": "deploy",
+    "accepted_login": false,
+    "invalid_user_flag": true,
+    "failed_password": true,
+    "possible_breakin_flag": true,
+    "repeated_failures_count": null,
+    "event_ids": [
+      "E27",
+      "E13",
+      "E12",
+      "E21",
+      "E19",
+      "E10",
+      "E24"
+    ],
+    "raw_content": [
+      "reverse mapping checking getaddrinfo for customer-187-141-143-180-sta.uninet-ide.com.mx [187.141.143.180] failed - POSSIBLE BREAK-IN ATTEMPT!",
+      "Invalid user deploy from 187.141.143.180",
+      "input_userauth_request: invalid user deploy [preauth]",
+      "pam_unix(sshd:auth): check pass; user unknown",
+      "pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=187.141.143.180",
+      "Failed password for invalid user deploy from 187.141.143.180 port 39710 ssh2",
+      "Received disconnect from 187.141.143.180: 11: Bye Bye [preauth]"
+    ],
+    "ground_truth_severity_v1": "Medium",
+    "ground_truth_severity": "Medium",
+    "valid_account_flag": false
+  },
+  {
+    "alert_id": "A24516",
+    "timestamp": "Dec 10 09:13:19",
+    "dest_host": "LabSZ",
+    "pid": "24516",
+    "source_ip": "187.141.143.180",
+    "target_user": "root",
+    "accepted_login": false,
+    "invalid_user_flag": false,
+    "failed_password": true,
+    "possible_breakin_flag": true,
+    "repeated_failures_count": null,
+    "event_ids": [
+      "E27",
+      "E20",
+      "E9",
+      "E24"
+    ],
+    "raw_content": [
+      "reverse mapping checking getaddrinfo for customer-187-141-143-180-sta.uninet-ide.com.mx [187.141.143.180] failed - POSSIBLE BREAK-IN ATTEMPT!",
+      "pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=187.141.143.180  user=root",
+      "Failed password for root from 187.141.143.180 port 40414 ssh2",
+      "Received disconnect from 187.141.143.180: 11: Bye Bye [preauth]"
+    ],
+    "ground_truth_severity_v1": "High",
+    "ground_truth_severity": "High",
+    "valid_account_flag": false
+  },
+  {
+    "alert_id": "A25492",
+    "timestamp": "Dec 10 11:04:12",
+    "dest_host": "LabSZ",
+    "pid": "25492",
+    "source_ip": "103.99.0.122",
+    "target_user": "ubnt",
+    "accepted_login": false,
+    "invalid_user_flag": true,
+    "failed_password": true,
+    "possible_breakin_flag": false,
+    "repeated_failures_count": null,
+    "event_ids": [
+      "E13",
+      "E12",
+      "E21",
+      "E19",
+      "E10",
+      "E7"
+    ],
+    "raw_content": [
+      "Invalid user ubnt from 103.99.0.122",
+      "input_userauth_request: invalid user ubnt [preauth]",
+      "pam_unix(sshd:auth): check pass; user unknown",
+      "pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.99.0.122",
+      "Failed password for invalid user ubnt from 103.99.0.122 port 64908 ssh2",
+      "error: Received disconnect from 103.99.0.122: 14: No more user authentication methods available. [preauth]"
+    ],
+    "ground_truth_severity_v1": "Medium",
+    "ground_truth_severity": "Medium",
+    "valid_account_flag": false
+  },
+  {
+    "alert_id": "A24806",
+    "timestamp": "Dec 10 09:48:23",
+    "dest_host": "LabSZ",
+    "pid": "24806",
+    "source_ip": "181.214.87.4",
+    "target_user": "0",
+    "accepted_login": false,
+    "invalid_user_flag": true,
+    "failed_password": false,
+    "possible_breakin_flag": false,
+    "repeated_failures_count": null,
+    "event_ids": [
+      "E13",
+      "E12",
+      "E8",
+      "E2"
+    ],
+    "raw_content": [
+      "Invalid user 0 from 181.214.87.4",
+      "input_userauth_request: invalid user 0 [preauth]",
+      "Failed none for invalid user 0 from 181.214.87.4 port 51889 ssh2",
+      "Connection closed by 181.214.87.4 [preauth]"
+    ],
+    "ground_truth_severity_v1": "Medium",
+    "ground_truth_severity": "Medium",
+    "valid_account_flag": false
+  },
+  {
+    "alert_id": "A24318",
+    "timestamp": "Dec 10 07:42:49",
+    "dest_host": "LabSZ",
+    "pid": "24318",
+    "source_ip": "183.136.162.51",
+    "target_user": "inspur",
+    "accepted_login": false,
+    "invalid_user_flag": true,
+    "failed_password": true,
+    "possible_breakin_flag": false,
+    "repeated_failures_count": null,
+    "event_ids": [
+      "E13",
+      "E12",
+      "E21",
+      "E19",
+      "E10",
+      "E24"
+    ],
+    "raw_content": [
+      "Invalid user inspur from 183.136.162.51",
+      "input_userauth_request: invalid user inspur [preauth]",
+      "pam_unix(sshd:auth): check pass; user unknown",
+      "pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=183.136.162.51",
+      "Failed password for invalid user inspur from 183.136.162.51 port 55204 ssh2",
+      "Received disconnect from 183.136.162.51: 11: Bye Bye [preauth]"
+    ],
+    "ground_truth_severity_v1": "Medium",
+    "ground_truth_severity": "Medium",
+    "valid_account_flag": false
+  },
+  {
+    "alert_id": "A24265",
+    "timestamp": "Dec 10 07:28:25",
+    "dest_host": "LabSZ",
+    "pid": "24265",
+    "source_ip": "112.95.230.3",
+    "target_user": "utsims",
+    "accepted_login": false,
+    "invalid_user_flag": true,
+    "failed_password": true,
+    "possible_breakin_flag": false,
+    "repeated_failures_count": null,
+    "event_ids": [
+      "E13",
+      "E12",
+      "E21",
+      "E19",
+      "E10",
+      "E24"
+    ],
+    "raw_content": [
+      "Invalid user utsims from 112.95.230.3",
+      "input_userauth_request: invalid user utsims [preauth]",
+      "pam_unix(sshd:auth): check pass; user unknown",
+      "pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=112.95.230.3",
+      "Failed password for invalid user utsims from 112.95.230.3 port 41506 ssh2",
+      "Received disconnect from 112.95.230.3: 11: Bye Bye [preauth]"
+    ],
+    "ground_truth_severity_v1": "Medium",
+    "ground_truth_severity": "Medium",
+    "valid_account_flag": false
+  },
+  {
+    "alert_id": "A24367",
+    "timestamp": "Dec 10 08:24:58",
+    "dest_host": "LabSZ",
+    "pid": "24367",
+    "source_ip": "5.188.10.180",
+    "target_user": "admin",
+    "accepted_login": false,
+    "invalid_user_flag": true,
+    "failed_password": false,
+    "possible_breakin_flag": false,
+    "repeated_failures_count": null,
+    "event_ids": [
+      "E13",
+      "E12",
+      "E8",
+      "E2"
+    ],
+    "raw_content": [
+      "Invalid user admin from 5.188.10.180",
+      "input_userauth_request: invalid user admin [preauth]",
+      "Failed none for invalid user admin from 5.188.10.180 port 52631 ssh2",
+      "Connection closed by 5.188.10.180 [preauth]"
+    ],
+    "ground_truth_severity_v1": "Medium",
+    "ground_truth_severity": "Medium",
+    "valid_account_flag": false
+  },
+  {
+    "alert_id": "A24443",
+    "timestamp": "Dec 10 09:11:26",
+    "dest_host": "LabSZ",
+    "pid": "24443",
+    "source_ip": "103.99.0.122",
+    "target_user": "user",
+    "accepted_login": false,
+    "invalid_user_flag": true,
+    "failed_password": true,
+    "possible_breakin_flag": false,
+    "repeated_failures_count": null,
+    "event_ids": [
+      "E13",
+      "E12",
+      "E21",
+      "E19",
+      "E10",
+      "E7"
+    ],
+    "raw_content": [
+      "Invalid user user from 103.99.0.122",
+      "input_userauth_request: invalid user user [preauth]",
+      "pam_unix(sshd:auth): check pass; user unknown",
+      "pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.99.0.122",
+      "Failed password for invalid user user from 103.99.0.122 port 62581 ssh2",
+      "error: Received disconnect from 103.99.0.122: 14: No more user authentication methods available. [preauth]"
+    ],
+    "ground_truth_severity_v1": "Medium",
+    "ground_truth_severity": "Medium",
+    "valid_account_flag": false
+  },
+  {
+    "alert_id": "A24451",
+    "timestamp": "Dec 10 09:11:39",
+    "dest_host": "LabSZ",
+    "pid": "24451",
+    "source_ip": "103.99.0.122",
+    "target_user": "anonymous",
+    "accepted_login": false,
+    "invalid_user_flag": true,
+    "failed_password": true,
+    "possible_breakin_flag": false,
+    "repeated_failures_count": null,
+    "event_ids": [
+      "E13",
+      "E12",
+      "E21",
+      "E19",
+      "E10",
+      "E7"
+    ],
+    "raw_content": [
+      "Invalid user anonymous from 103.99.0.122",
+      "input_userauth_request: invalid user anonymous [preauth]",
+      "pam_unix(sshd:auth): check pass; user unknown",
+      "pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.99.0.122",
+      "Failed password for invalid user anonymous from 103.99.0.122 port 54051 ssh2",
+      "error: Received disconnect from 103.99.0.122: 14: No more user authentication methods available. [preauth]"
+    ],
+    "ground_truth_severity_v1": "Medium",
+    "ground_truth_severity": "Medium",
+    "valid_account_flag": false
+  },
+  {
+    "alert_id": "A24955",
+    "timestamp": "Dec 10 10:55:45",
+    "dest_host": "LabSZ",
+    "pid": "24955",
+    "source_ip": "183.62.140.253",
+    "target_user": "ubuntu",
+    "accepted_login": false,
+    "invalid_user_flag": true,
+    "failed_password": true,
+    "possible_breakin_flag": false,
+    "repeated_failures_count": null,
+    "event_ids": [
+      "E13",
+      "E12",
+      "E21",
+      "E19",
+      "E10",
+      "E24"
+    ],
+    "raw_content": [
+      "Invalid user ubuntu from 183.62.140.253",
+      "input_userauth_request: invalid user ubuntu [preauth]",
+      "pam_unix(sshd:auth): check pass; user unknown",
+      "pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=183.62.140.253",
+      "Failed password for invalid user ubuntu from 183.62.140.253 port 48168 ssh2",
+      "Received disconnect from 183.62.140.253: 11: Bye Bye [preauth]"
+    ],
+    "ground_truth_severity_v1": "Medium",
+    "ground_truth_severity": "Medium",
+    "valid_account_flag": false
+  },
+  {
+    "alert_id": "A25521",
+    "timestamp": "Dec 10 11:04:30",
+    "dest_host": "LabSZ",
+    "pid": "25521",
+    "source_ip": "103.99.0.122",
+    "target_user": "cisco",
+    "accepted_login": false,
+    "invalid_user_flag": true,
+    "failed_password": true,
+    "possible_breakin_flag": false,
+    "repeated_failures_count": null,
+    "event_ids": [
+      "E13",
+      "E12",
+      "E21",
+      "E19",
+      "E10",
+      "E7"
+    ],
+    "raw_content": [
+      "Invalid user cisco from 103.99.0.122",
+      "input_userauth_request: invalid user cisco [preauth]",
+      "pam_unix(sshd:auth): check pass; user unknown",
+      "pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.99.0.122",
+      "Failed password for invalid user cisco from 103.99.0.122 port 50890 ssh2",
+      "error: Received disconnect from 103.99.0.122: 14: No more user authentication methods available. [preauth]"
+    ],
+    "ground_truth_severity_v1": "Medium",
+    "ground_truth_severity": "Medium",
+    "valid_account_flag": false
+  },
+  {
+    "alert_id": "A25459",
+    "timestamp": "Dec 10 11:03:45",
+    "dest_host": "LabSZ",
+    "pid": "25459",
+    "source_ip": "103.99.0.122",
+    "target_user": "user",
+    "accepted_login": false,
+    "invalid_user_flag": true,
+    "failed_password": true,
+    "possible_breakin_flag": false,
+    "repeated_failures_count": null,
+    "event_ids": [
+      "E13",
+      "E12",
+      "E21",
+      "E19",
+      "E10",
+      "E7"
+    ],
+    "raw_content": [
+      "Invalid user user from 103.99.0.122",
+      "input_userauth_request: invalid user user [preauth]",
+      "pam_unix(sshd:auth): check pass; user unknown",
+      "pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.99.0.122",
+      "Failed password for invalid user user from 103.99.0.122 port 61269 ssh2",
+      "error: Received disconnect from 103.99.0.122: 14: No more user authentication methods available. [preauth]"
+    ],
+    "ground_truth_severity_v1": "Medium",
+    "ground_truth_severity": "Medium",
+    "valid_account_flag": false
+  },
+  {
+    "alert_id": "A24336",
+    "timestamp": "Dec 10 08:07:00",
+    "dest_host": "LabSZ",
+    "pid": "24336",
+    "source_ip": "194.190.163.22",
+    "target_user": null,
+    "accepted_login": false,
+    "invalid_user_flag": false,
+    "failed_password": false,
+    "possible_breakin_flag": false,
+    "repeated_failures_count": null,
+    "event_ids": [
+      "E2"
+    ],
+    "raw_content": [
+      "Connection closed by 194.190.163.22 [preauth]"
+    ],
+    "ground_truth_severity_v1": "Low",
+    "ground_truth_severity": "Low",
+    "valid_account_flag": false
+  },
+  {
+    "alert_id": "A24865",
+    "timestamp": "Dec 10 10:50:37",
+    "dest_host": "LabSZ",
+    "pid": "24865",
+    "source_ip": "1.237.174.253",
+    "target_user": null,
+    "accepted_login": false,
+    "invalid_user_flag": false,
+    "failed_password": false,
+    "possible_breakin_flag": false,
+    "repeated_failures_count": null,
+    "event_ids": [
+      "E2"
+    ],
+    "raw_content": [
+      "Connection closed by 1.237.174.253 [preauth]"
+    ],
+    "ground_truth_severity_v1": "Low",
+    "ground_truth_severity": "Low",
+    "valid_account_flag": false
+  },
+  {
+    "alert_id": "A24839",
+    "timestamp": "Dec 10 10:19:59",
+    "dest_host": "LabSZ",
+    "pid": "24839",
+    "source_ip": "1.237.174.253",
+    "target_user": null,
+    "accepted_login": false,
+    "invalid_user_flag": false,
+    "failed_password": false,
+    "possible_breakin_flag": false,
+    "repeated_failures_count": null,
+    "event_ids": [
+      "E2"
+    ],
+    "raw_content": [
+      "Connection closed by 1.237.174.253 [preauth]"
+    ],
+    "ground_truth_severity_v1": "Low",
+    "ground_truth_severity": "Low",
+    "valid_account_flag": false
+  },
+  {
+    "alert_id": "A24511",
+    "timestamp": "Dec 10 09:13:22",
+    "dest_host": "LabSZ",
+    "pid": "24511",
+    "source_ip": "185.190.58.151",
+    "target_user": null,
+    "accepted_login": false,
+    "invalid_user_flag": false,
+    "failed_password": false,
+    "possible_breakin_flag": false,
+    "repeated_failures_count": null,
+    "event_ids": [
+      "E3"
+    ],
+    "raw_content": [
+      "Did not receive identification string from 185.190.58.151"
+    ],
+    "ground_truth_severity_v1": "Low",
+    "ground_truth_severity": "Low",
+    "valid_account_flag": false
+  },
+  {
+    "alert_id": "A24358",
+    "timestamp": "Dec 10 08:20:23",
+    "dest_host": "LabSZ",
+    "pid": "24358",
+    "source_ip": "194.190.163.22",
+    "target_user": null,
+    "accepted_login": false,
+    "invalid_user_flag": false,
+    "failed_password": false,
+    "possible_breakin_flag": false,
+    "repeated_failures_count": null,
+    "event_ids": [
+      "E2"
+    ],
+    "raw_content": [
+      "Connection closed by 194.190.163.22 [preauth]"
+    ],
+    "ground_truth_severity_v1": "Low",
+    "ground_truth_severity": "Low",
+    "valid_account_flag": false
+  },
+  {
+    "alert_id": "A24636",
+    "timestamp": "Dec 10 09:18:27",
+    "dest_host": "LabSZ",
+    "pid": "24636",
+    "source_ip": "103.207.39.16",
+    "target_user": null,
+    "accepted_login": false,
+    "invalid_user_flag": false,
+    "failed_password": false,
+    "possible_breakin_flag": false,
+    "repeated_failures_count": null,
+    "event_ids": [
+      "E3"
+    ],
+    "raw_content": [
+      "Did not receive identification string from 103.207.39.16"
+    ],
+    "ground_truth_severity_v1": "Low",
+    "ground_truth_severity": "Low",
+    "valid_account_flag": false
+  },
+  {
+    "alert_id": "A24381",
+    "timestamp": "Dec 10 08:26:32",
+    "dest_host": "LabSZ",
+    "pid": "24381",
+    "source_ip": "5.188.10.180",
+    "target_user": null,
+    "accepted_login": false,
+    "invalid_user_flag": false,
+    "failed_password": false,
+    "possible_breakin_flag": false,
+    "repeated_failures_count": null,
+    "event_ids": [
+      "E2"
+    ],
+    "raw_content": [
+      "Connection closed by 5.188.10.180 [preauth]"
+    ],
+    "ground_truth_severity_v1": "Low",
+    "ground_truth_severity": "Low",
+    "valid_account_flag": false
+  },
+  {
+    "alert_id": "A24414",
+    "timestamp": "Dec 10 09:04:46",
+    "dest_host": "LabSZ",
+    "pid": "24414",
+    "source_ip": "188.132.244.89",
+    "target_user": null,
+    "accepted_login": false,
+    "invalid_user_flag": false,
+    "failed_password": false,
+    "possible_breakin_flag": false,
+    "repeated_failures_count": null,
+    "event_ids": [
+      "E3"
+    ],
+    "raw_content": [
+      "Did not receive identification string from 188.132.244.89"
+    ],
+    "ground_truth_severity_v1": "Low",
+    "ground_truth_severity": "Low",
+    "valid_account_flag": false
+  },
+  {
+    "alert_id": "A24245",
+    "timestamp": "Dec 10 07:28:03",
+    "dest_host": "LabSZ",
+    "pid": "24245",
+    "source_ip": "112.95.230.3",
+    "target_user": "pgadmin",
+    "accepted_login": false,
+    "invalid_user_flag": true,
+    "failed_password": true,
+    "possible_breakin_flag": false,
+    "repeated_failures_count": null,
+    "event_ids": [
+      "E13",
+      "E12",
+      "E21",
+      "E19",
+      "E10",
+      "E24"
+    ],
+    "raw_content": [
+      "Invalid user pgadmin from 112.95.230.3",
+      "input_userauth_request: invalid user pgadmin [preauth]",
+      "pam_unix(sshd:auth): check pass; user unknown",
+      "pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=112.95.230.3",
+      "Failed password for invalid user pgadmin from 112.95.230.3 port 54087 ssh2",
+      "Received disconnect from 112.95.230.3: 11: Bye Bye [preauth]"
+    ],
+    "ground_truth_severity_v1": "Medium",
+    "ground_truth_severity": "Medium",
+    "valid_account_flag": false
+  },
+  {
+    "alert_id": "A24606",
+    "timestamp": "Dec 10 09:17:11",
+    "dest_host": "LabSZ",
+    "pid": "24606",
+    "source_ip": "187.141.143.180",
+    "target_user": "oracle",
+    "accepted_login": false,
+    "invalid_user_flag": true,
+    "failed_password": true,
+    "possible_breakin_flag": true,
+    "repeated_failures_count": null,
+    "event_ids": [
+      "E27",
+      "E13",
+      "E12",
+      "E21",
+      "E19",
+      "E10",
+      "E24"
+    ],
+    "raw_content": [
+      "reverse mapping checking getaddrinfo for customer-187-141-143-180-sta.uninet-ide.com.mx [187.141.143.180] failed - POSSIBLE BREAK-IN ATTEMPT!",
+      "Invalid user oracle from 187.141.143.180",
+      "input_userauth_request: invalid user oracle [preauth]",
+      "pam_unix(sshd:auth): check pass; user unknown",
+      "pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=187.141.143.180",
+      "Failed password for invalid user oracle from 187.141.143.180 port 51169 ssh2",
+      "Received disconnect from 187.141.143.180: 11: Bye Bye [preauth]"
+    ],
+    "ground_truth_severity_v1": "Medium",
+    "ground_truth_severity": "Medium",
+    "valid_account_flag": false
+  },
+  {
+    "alert_id": "A24608",
+    "timestamp": "Dec 10 09:17:15",
+    "dest_host": "LabSZ",
+    "pid": "24608",
+    "source_ip": "187.141.143.180",
+    "target_user": "oracle",
+    "accepted_login": false,
+    "invalid_user_flag": true,
+    "failed_password": true,
+    "possible_breakin_flag": true,
+    "repeated_failures_count": null,
+    "event_ids": [
+      "E27",
+      "E13",
+      "E12",
+      "E21",
+      "E19",
+      "E10",
+      "E24"
+    ],
+    "raw_content": [
+      "reverse mapping checking getaddrinfo for customer-187-141-143-180-sta.uninet-ide.com.mx [187.141.143.180] failed - POSSIBLE BREAK-IN ATTEMPT!",
+      "Invalid user oracle from 187.141.143.180",
+      "input_userauth_request: invalid user oracle [preauth]",
+      "pam_unix(sshd:auth): check pass; user unknown",
+      "pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=187.141.143.180",
+      "Failed password for invalid user oracle from 187.141.143.180 port 52276 ssh2",
+      "Received disconnect from 187.141.143.180: 11: Bye Bye [preauth]"
+    ],
+    "ground_truth_severity_v1": "Medium",
+    "ground_truth_severity": "Medium",
+    "valid_account_flag": false
+  },
+  {
+    "alert_id": "A24610",
+    "timestamp": "Dec 10 09:17:21",
+    "dest_host": "LabSZ",
+    "pid": "24610",
+    "source_ip": "187.141.143.180",
+    "target_user": "oracle",
+    "accepted_login": false,
+    "invalid_user_flag": true,
+    "failed_password": true,
+    "possible_breakin_flag": true,
+    "repeated_failures_count": null,
+    "event_ids": [
+      "E27",
+      "E13",
+      "E12",
+      "E21",
+      "E19",
+      "E10",
+      "E24"
+    ],
+    "raw_content": [
+      "reverse mapping checking getaddrinfo for customer-187-141-143-180-sta.uninet-ide.com.mx [187.141.143.180] failed - POSSIBLE BREAK-IN ATTEMPT!",
+      "Invalid user oracle from 187.141.143.180",
+      "input_userauth_request: invalid user oracle [preauth]",
+      "pam_unix(sshd:auth): check pass; user unknown",
+      "pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=187.141.143.180",
+      "Failed password for invalid user oracle from 187.141.143.180 port 53550 ssh2",
+      "Received disconnect from 187.141.143.180: 11: Bye Bye [preauth]"
+    ],
+    "ground_truth_severity_v1": "Medium",
+    "ground_truth_severity": "Medium",
+    "valid_account_flag": false
+  },
+  {
+    "alert_id": "A24612",
+    "timestamp": "Dec 10 09:17:26",
+    "dest_host": "LabSZ",
+    "pid": "24612",
+    "source_ip": "187.141.143.180",
+    "target_user": "postgres",
+    "accepted_login": false,
+    "invalid_user_flag": true,
+    "failed_password": true,
+    "possible_breakin_flag": true,
+    "repeated_failures_count": null,
+    "event_ids": [
+      "E27",
+      "E13",
+      "E12",
+      "E21",
+      "E19",
+      "E10",
+      "E24"
+    ],
+    "raw_content": [
+      "reverse mapping checking getaddrinfo for customer-187-141-143-180-sta.uninet-ide.com.mx [187.141.143.180] failed - POSSIBLE BREAK-IN ATTEMPT!",
+      "Invalid user postgres from 187.141.143.180",
+      "input_userauth_request: invalid user postgres [preauth]",
+      "pam_unix(sshd:auth): check pass; user unknown",
+      "pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=187.141.143.180",
+      "Failed password for invalid user postgres from 187.141.143.180 port 54596 ssh2",
+      "Received disconnect from 187.141.143.180: 11: Bye Bye [preauth]"
+    ],
+    "ground_truth_severity_v1": "Medium",
+    "ground_truth_severity": "Medium",
+    "valid_account_flag": false
+  },
+  {
+    "alert_id": "A24647",
+    "timestamp": "Dec 10 09:18:46",
+    "dest_host": "LabSZ",
+    "pid": "24647",
+    "source_ip": "187.141.143.180",
+    "target_user": "oracle",
+    "accepted_login": false,
+    "invalid_user_flag": true,
+    "failed_password": true,
+    "possible_breakin_flag": true,
+    "repeated_failures_count": null,
+    "event_ids": [
+      "E27",
+      "E13",
+      "E12",
+      "E21",
+      "E19",
+      "E10",
+      "E24"
+    ],
+    "raw_content": [
+      "reverse mapping checking getaddrinfo for customer-187-141-143-180-sta.uninet-ide.com.mx [187.141.143.180] failed - POSSIBLE BREAK-IN ATTEMPT!",
+      "Invalid user oracle from 187.141.143.180",
+      "input_userauth_request: invalid user oracle [preauth]",
+      "pam_unix(sshd:auth): check pass; user unknown",
+      "pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=187.141.143.180",
+      "Failed password for invalid user oracle from 187.141.143.180 port 42342 ssh2",
+      "Received disconnect from 187.141.143.180: 11: Bye Bye [preauth]"
+    ],
+    "ground_truth_severity_v1": "Medium",
+    "ground_truth_severity": "Medium",
+    "valid_account_flag": false
+  },
+  {
+    "alert_id": "A24659",
+    "timestamp": "Dec 10 09:19:20",
+    "dest_host": "LabSZ",
+    "pid": "24659",
+    "source_ip": "187.141.143.180",
+    "target_user": "mysql",
+    "accepted_login": false,
+    "invalid_user_flag": false,
+    "failed_password": true,
+    "possible_breakin_flag": true,
+    "repeated_failures_count": null,
+    "event_ids": [
+      "E27",
+      "E20",
+      "E9",
+      "E24"
+    ],
+    "raw_content": [
+      "reverse mapping checking getaddrinfo for customer-187-141-143-180-sta.uninet-ide.com.mx [187.141.143.180] failed - POSSIBLE BREAK-IN ATTEMPT!",
+      "pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=187.141.143.180  user=mysql",
+      "Failed password for mysql from 187.141.143.180 port 51060 ssh2",
+      "Received disconnect from 187.141.143.180: 11: Bye Bye [preauth]"
+    ],
+    "ground_truth_severity_v1": "Low",
+    "ground_truth_severity": "Medium",
+    "valid_account_flag": true
+  },
+  {
+    "alert_id": "A24661",
+    "timestamp": "Dec 10 09:19:26",
+    "dest_host": "LabSZ",
+    "pid": "24661",
+    "source_ip": "187.141.143.180",
+    "target_user": "mysql",
+    "accepted_login": false,
+    "invalid_user_flag": false,
+    "failed_password": true,
+    "possible_breakin_flag": true,
+    "repeated_failures_count": null,
+    "event_ids": [
+      "E27",
+      "E20",
+      "E9",
+      "E24"
+    ],
+    "raw_content": [
+      "reverse mapping checking getaddrinfo for customer-187-141-143-180-sta.uninet-ide.com.mx [187.141.143.180] failed - POSSIBLE BREAK-IN ATTEMPT!",
+      "pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=187.141.143.180  user=mysql",
+      "Failed password for mysql from 187.141.143.180 port 52586 ssh2",
+      "Received disconnect from 187.141.143.180: 11: Bye Bye [preauth]"
+    ],
+    "ground_truth_severity_v1": "Low",
+    "ground_truth_severity": "Medium",
+    "valid_account_flag": true
+  },
+  {
+    "alert_id": "A24949",
+    "timestamp": "Dec 10 10:55:39",
+    "dest_host": "LabSZ",
+    "pid": "24949",
+    "source_ip": "183.62.140.253",
+    "target_user": "oracle",
+    "accepted_login": false,
+    "invalid_user_flag": true,
+    "failed_password": true,
+    "possible_breakin_flag": false,
+    "repeated_failures_count": null,
+    "event_ids": [
+      "E13",
+      "E12",
+      "E21",
+      "E19",
+      "E10",
+      "E24"
+    ],
+    "raw_content": [
+      "Invalid user oracle from 183.62.140.253",
+      "input_userauth_request: invalid user oracle [preauth]",
+      "pam_unix(sshd:auth): check pass; user unknown",
+      "pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=183.62.140.253",
+      "Failed password for invalid user oracle from 183.62.140.253 port 47098 ssh2",
+      "Received disconnect from 183.62.140.253: 11: Bye Bye [preauth]"
+    ],
+    "ground_truth_severity_v1": "Medium",
+    "ground_truth_severity": "Medium",
+    "valid_account_flag": false
+  },
+  {
+    "alert_id": "A24953",
+    "timestamp": "Dec 10 10:55:43",
+    "dest_host": "LabSZ",
+    "pid": "24953",
+    "source_ip": "183.62.140.253",
+    "target_user": "oracle",
+    "accepted_login": false,
+    "invalid_user_flag": true,
+    "failed_password": true,
+    "possible_breakin_flag": false,
+    "repeated_failures_count": null,
+    "event_ids": [
+      "E13",
+      "E12",
+      "E21",
+      "E19",
+      "E10",
+      "E24"
+    ],
+    "raw_content": [
+      "Invalid user oracle from 183.62.140.253",
+      "input_userauth_request: invalid user oracle [preauth]",
+      "pam_unix(sshd:auth): check pass; user unknown",
+      "pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=183.62.140.253",
+      "Failed password for invalid user oracle from 183.62.140.253 port 47782 ssh2",
+      "Received disconnect from 183.62.140.253: 11: Bye Bye [preauth]"
+    ],
+    "ground_truth_severity_v1": "Medium",
+    "ground_truth_severity": "Medium",
+    "valid_account_flag": false
+  }
+]

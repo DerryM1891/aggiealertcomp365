@@ -1,0 +1,32 @@
+{
+  "rule_based_full_dataset": {
+    "n": 519,
+    "accuracy": 1.0,
+    "cohen_kappa": 1.0
+  },
+  "rule_based_eval_subset": {
+    "n": 41,
+    "accuracy": 1.0,
+    "cohen_kappa": 1.0
+  },
+  "llm_eval_subset": {
+    "n": 41,
+    "accuracy": 0.9512195121951219,
+    "cohen_kappa": 0.9208494208494209
+  },
+  "disagreements_rule_vs_llm": [
+    {
+      "alert_id": "A24659",
+      "ground_truth": "Low",
+      "rule_based": "Low",
+      "llm": "Medium"
+    },
+    {
+      "alert_id": "A24661",
+      "ground_truth": "Low",
+      "rule_based": "Low",
+      "llm": "Medium"
+    }
+  ],
+  "summary_quality_avg": 3.0
+}

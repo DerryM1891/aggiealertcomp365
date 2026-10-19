@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AggieAlert</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23004684'/%3E%3Cpath d='M16 6 6 26h4l1.6-4h8.8l1.6 4h4L16 6Zm0 8 2.8 6h-5.6L16 14Z' fill='%23ffb81c'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="top">
+  <div class="wrap bar-top">
+    <div class="brand"><div class="mark" aria-hidden="true">A</div><h1>Aggie<b>Alert</b></h1><span class="tag">SSH alert triage</span></div>
+    <span class="live" id="liveState"><i></i><span>Checking…</span></span>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="overview" aria-label="Overview">
+    <div class="card wide">
+      <h2>Alerts Over Time</h2>
+      <p class="sub" id="totalSub">15-minute Buckets, Stacked by Severity</p>
+      <div class="chart-wrap" id="timeline"></div>
+      <ul class="legend" id="legend"></ul>
+    </div>
+    <div class="card"><h2>Top source IPs</h2><p class="sub">Click To Filter The Queue</p><ul class="ranked" id="topIps"></ul></div>
+    <div class="card"><h2>Most targeted accounts</h2><p class="sub">Click To Filter The Queue</p><ul class="ranked" id="topUsers"></ul></div>
+  </section>
+
+  <nav class="tabs" role="tablist">
+    <button role="tab" id="tab-queue" aria-selected="true" data-tab="queue">Triage Queue</button>
+    <button role="tab" id="tab-analyze" aria-selected="false" data-tab="analyze">Analyze &amp; Alert</button>
+  </nav>
+
+  <section id="view-queue" role="tabpanel" aria-labelledby="tab-queue">
+    <div class="toolbar">
+      <div class="seg" id="rankSeg" role="group" aria-label="Rank alerts by">
+        <button data-v="rule" aria-pressed="true">Rule-Based</button>
+        <button data-v="llm" aria-pressed="false">Aggie-Bot</button>
+      </div>
+      <div class="chips" id="sevChips" role="group" aria-label="Filter by severity"></div>
+      <input class="search" id="search" type="search" placeholder="Search IP, account, summary" aria-label="Search alerts">
+      <button class="btn ghost" id="clearFilters" hidden>Clear Filters</button>
+      <a class="btn ghost push" id="csvLink" href="/api/report.csv">Export CSV</a>
+    </div>
+    <div class="queue">
+      <div>
+        <div class="card flush table-wrap">
+          <table><thead><tr id="thead"></tr></thead><tbody id="rows"></tbody></table>
+          <div class="empty" id="empty" hidden>No alerts match these filters.</div>
+        </div>
+        <div class="pager"><span id="pageInfo"></span>
+          <span><button class="btn" id="prev">Previous</button> <button class="btn" id="next">Next</button></span></div>
+      </div>
+      <aside class="card detail" id="detail" aria-label="Alert detail">
+        <button class="btn close" id="closeDetail">Back to queue</button>
+        <div id="detailBody"><div class="empty">Select an alert to see the log lines and each verdict.</div></div>
+      </aside>
+    </div>
+  </section>
+
+  <section id="view-analyze" role="tabpanel" aria-labelledby="tab-analyze" hidden></section>
+</main>
+<footer class="foot wrap"><i></i>Built at <b>North Carolina A&amp;T</b> &middot; Aggie Pride<i></i></footer>
+<div id="live-region" class="sr-only" aria-live="polite"></div>
+<script src="app.js"></script>
+</body>
+</html>

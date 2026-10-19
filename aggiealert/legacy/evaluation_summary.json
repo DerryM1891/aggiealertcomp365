@@ -1,0 +1,10 @@
+{
+  "rule_based": {
+    "accuracy": 1.0,
+    "cohen_kappa": 1.0
+  },
+  "llm": {
+    "accuracy": 1.0,
+    "cohen_kappa": 1.0
+  }
+}

@@ -1,0 +1,738 @@
+{
+ "A24680": {
+  "result": {
+   "summary": "User fztu successfully authenticated via SSH from 119.137.62.142 and opened a session.",
+   "severity": "Critical",
+   "rationale": "A password was accepted and a session was opened, indicating successful, unverified access.",
+   "source_ip": "119.137.62.142",
+   "target_user": "fztu",
+   "attack_technique": "T1078 - Valid Accounts"
+  },
+  "meta": {
+   "source": "direct_prompt",
+   "model": null,
+   "prompt_version": "v1",
+   "timestamp": "2026-10-04 (Checkpoint 2)"
+  }
+ },
+ "A24227": {
+  "result": {
+   "summary": "Repeated failed password attempts against the root account from 5.36.59.76, ending in a disconnect for too many auth failures.",
+   "severity": "High",
+   "rationale": "Multiple consecutive failed logins against a privileged account is a classic brute-force signature.",
+   "source_ip": "5.36.59.76",
+   "target_user": "root",
+   "attack_technique": "T1110.001 - Brute Force: Password Guessing"
+  },
+  "meta": {
+   "source": "direct_prompt",
+   "model": null,
+   "prompt_version": "v1",
+   "timestamp": "2026-10-04 (Checkpoint 2)"
+  }
+ },
+ "A24408": {
+  "result": {
+   "summary": "Repeated failed password attempts against the root account from 106.5.5.195, ending in a disconnect for too many auth failures.",
+   "severity": "High",
+   "rationale": "Multiple consecutive failed logins against a privileged account is a classic brute-force signature.",
+   "source_ip": "106.5.5.195",
+   "target_user": "root",
+   "attack_technique": "T1110.001 - Brute Force: Password Guessing"
+  },
+  "meta": {
+   "source": "direct_prompt",
+   "model": null,
+   "prompt_version": "v1",
+   "timestamp": "2026-10-04 (Checkpoint 2)"
+  }
+ },
+ "A24667": {
+  "result": {
+   "summary": "Login attempt against non-existent account 'magnos' from 187.141.143.180, flagged by reverse-DNS mismatch.",
+   "severity": "Medium",
+   "rationale": "Unknown-account probe with a suspicious reverse-DNS flag, but only a single failed attempt.",
+   "source_ip": "187.141.143.180",
+   "target_user": "magnos",
+   "attack_technique": "T1110.003 - Password Spraying"
+  },
+  "meta": {
+   "source": "direct_prompt",
+   "model": null,
+   "prompt_version": "v1",
+   "timestamp": "2026-10-04 (Checkpoint 2)"
+  }
+ },
+ "A24522": {
+  "result": {
+   "summary": "Failed root login from 187.141.143.180, flagged by reverse-DNS mismatch, part of a cluster of similar attempts from the same source.",
+   "severity": "High",
+   "rationale": "Targeting the root account specifically raises risk even though this single alert shows only one failed attempt.",
+   "source_ip": "187.141.143.180",
+   "target_user": "root",
+   "attack_technique": "T1110.001 - Brute Force: Password Guessing"
+  },
+  "meta": {
+   "source": "direct_prompt",
+   "model": null,
+   "prompt_version": "v1",
+   "timestamp": "2026-10-04 (Checkpoint 2)"
+  }
+ },
+ "A24324": {
+  "result": {
+   "summary": "Login attempt against non-existent account 'support' from 195.154.37.122, flagged by reverse-DNS mismatch.",
+   "severity": "Medium",
+   "rationale": "Unknown-account probe with a suspicious reverse-DNS flag, but only a single failed attempt.",
+   "source_ip": "195.154.37.122",
+   "target_user": "support",
+   "attack_technique": "T1110.003 - Password Spraying"
+  },
+  "meta": {
+   "source": "direct_prompt",
+   "model": null,
+   "prompt_version": "v1",
+   "timestamp": "2026-10-04 (Checkpoint 2)"
+  }
+ },
+ "A24565": {
+  "result": {
+   "summary": "Failed root login from 187.141.143.180, flagged by reverse-DNS mismatch.",
+   "severity": "High",
+   "rationale": "Targeting the root account specifically from a source already seen attacking this host raises risk.",
+   "source_ip": "187.141.143.180",
+   "target_user": "root",
+   "attack_technique": "T1110.001 - Brute Force: Password Guessing"
+  },
+  "meta": {
+   "source": "direct_prompt",
+   "model": null,
+   "prompt_version": "v1",
+   "timestamp": "2026-10-04 (Checkpoint 2)"
+  }
+ },
+ "A24557": {
+  "result": {
+   "summary": "Failed root login from 187.141.143.180, flagged by reverse-DNS mismatch.",
+   "severity": "High",
+   "rationale": "Targeting the root account specifically from a source already seen attacking this host raises risk.",
+   "source_ip": "187.141.143.180",
+   "target_user": "root",
+   "attack_technique": "T1110.001 - Brute Force: Password Guessing"
+  },
+  "meta": {
+   "source": "direct_prompt",
+   "model": null,
+   "prompt_version": "v1",
+   "timestamp": "2026-10-04 (Checkpoint 2)"
+  }
+ },
+ "A24551": {
+  "result": {
+   "summary": "Failed root login from 187.141.143.180, flagged by reverse-DNS mismatch.",
+   "severity": "High",
+   "rationale": "Targeting the root account specifically from a source already seen attacking this host raises risk.",
+   "source_ip": "187.141.143.180",
+   "target_user": "root",
+   "attack_technique": "T1110.001 - Brute Force: Password Guessing"
+  },
+  "meta": {
+   "source": "direct_prompt",
+   "model": null,
+   "prompt_version": "v1",
+   "timestamp": "2026-10-04 (Checkpoint 2)"
+  }
+ },
+ "A24529": {
+  "result": {
+   "summary": "Failed root login from 187.141.143.180, flagged by reverse-DNS mismatch.",
+   "severity": "High",
+   "rationale": "Targeting the root account specifically from a source already seen attacking this host raises risk.",
+   "source_ip": "187.141.143.180",
+   "target_user": "root",
+   "attack_technique": "T1110.001 - Brute Force: Password Guessing"
+  },
+  "meta": {
+   "source": "direct_prompt",
+   "model": null,
+   "prompt_version": "v1",
+   "timestamp": "2026-10-04 (Checkpoint 2)"
+  }
+ },
+ "A24520": {
+  "result": {
+   "summary": "Failed root login from 187.141.143.180, flagged by reverse-DNS mismatch.",
+   "severity": "High",
+   "rationale": "Targeting the root account specifically from a source already seen attacking this host raises risk.",
+   "source_ip": "187.141.143.180",
+   "target_user": "root",
+   "attack_technique": "T1110.001 - Brute Force: Password Guessing"
+  },
+  "meta": {
+   "source": "direct_prompt",
+   "model": null,
+   "prompt_version": "v1",
+   "timestamp": "2026-10-04 (Checkpoint 2)"
+  }
+ },
+ "A24641": {
+  "result": {
+   "summary": "Login attempt against non-existent account 'deploy' from 187.141.143.180, flagged by reverse-DNS mismatch.",
+   "severity": "Medium",
+   "rationale": "Unknown-account probe targeting a devops-style account name, from a source already seen repeatedly attacking this host.",
+   "source_ip": "187.141.143.180",
+   "target_user": "deploy",
+   "attack_technique": "T1110.003 - Password Spraying"
+  },
+  "meta": {
+   "source": "direct_prompt",
+   "model": null,
+   "prompt_version": "v1",
+   "timestamp": "2026-10-04 (Checkpoint 2)"
+  }
+ },
+ "A24516": {
+  "result": {
+   "summary": "Failed root login from 187.141.143.180, flagged by reverse-DNS mismatch.",
+   "severity": "High",
+   "rationale": "Targeting the root account from a source already seen attacking this host repeatedly.",
+   "source_ip": "187.141.143.180",
+   "target_user": "root",
+   "attack_technique": "T1110.001 - Brute Force: Password Guessing"
+  },
+  "meta": {
+   "source": "direct_prompt",
+   "model": null,
+   "prompt_version": "v1",
+   "timestamp": "2026-10-04 (Checkpoint 2)"
+  }
+ },
+ "A25492": {
+  "result": {
+   "summary": "Login attempt against non-existent account 'ubnt' from 103.99.0.122, a default credential commonly targeted on IoT/network devices.",
+   "severity": "Medium",
+   "rationale": "Default-device-credential probe consistent with automated IoT-botnet scanning.",
+   "source_ip": "103.99.0.122",
+   "target_user": "ubnt",
+   "attack_technique": "T1110.003 - Password Spraying"
+  },
+  "meta": {
+   "source": "direct_prompt",
+   "model": null,
+   "prompt_version": "v1",
+   "timestamp": "2026-10-04 (Checkpoint 2)"
+  }
+ },
+ "A24806": {
+  "result": {
+   "summary": "Connection attempt for non-existent account '0' from 181.214.87.4 with no password offered.",
+   "severity": "Medium",
+   "rationale": "Non-standard username suggests automated scanning rather than a targeted attempt.",
+   "source_ip": "181.214.87.4",
+   "target_user": "0",
+   "attack_technique": "T1110.003 - Password Spraying"
+  },
+  "meta": {
+   "source": "direct_prompt",
+   "model": null,
+   "prompt_version": "v1",
+   "timestamp": "2026-10-04 (Checkpoint 2)"
+  }
+ },
+ "A24318": {
+  "result": {
+   "summary": "Login attempt against non-existent account 'inspur' from 183.136.162.51.",
+   "severity": "Medium",
+   "rationale": "Default-vendor-credential-style username probe against an unknown account.",
+   "source_ip": "183.136.162.51",
+   "target_user": "inspur",
+   "attack_technique": "T1110.003 - Password Spraying"
+  },
+  "meta": {
+   "source": "direct_prompt",
+   "model": null,
+   "prompt_version": "v1",
+   "timestamp": "2026-10-04 (Checkpoint 2)"
+  }
+ },
+ "A24265": {
+  "result": {
+   "summary": "Login attempt against non-existent account 'utsims' from 112.95.230.3.",
+   "severity": "Medium",
+   "rationale": "Unknown-account probe with a single failed password attempt.",
+   "source_ip": "112.95.230.3",
+   "target_user": "utsims",
+   "attack_technique": "T1110.003 - Password Spraying"
+  },
+  "meta": {
+   "source": "direct_prompt",
+   "model": null,
+   "prompt_version": "v1",
+   "timestamp": "2026-10-04 (Checkpoint 2)"
+  }
+ },
+ "A24367": {
+  "result": {
+   "summary": "Connection attempt for non-existent account 'admin' from 5.188.10.180 with no password offered.",
+   "severity": "Medium",
+   "rationale": "Username enumeration against an unknown account, though no password guess was actually submitted.",
+   "source_ip": "5.188.10.180",
+   "target_user": "admin",
+   "attack_technique": "T1110.003 - Password Spraying"
+  },
+  "meta": {
+   "source": "direct_prompt",
+   "model": null,
+   "prompt_version": "v1",
+   "timestamp": "2026-10-04 (Checkpoint 2)"
+  }
+ },
+ "A24443": {
+  "result": {
+   "summary": "Login attempt against non-existent account 'user' from 103.99.0.122.",
+   "severity": "Medium",
+   "rationale": "Default-credential-style username probe against an unknown account.",
+   "source_ip": "103.99.0.122",
+   "target_user": "user",
+   "attack_technique": "T1110.003 - Password Spraying"
+  },
+  "meta": {
+   "source": "direct_prompt",
+   "model": null,
+   "prompt_version": "v1",
+   "timestamp": "2026-10-04 (Checkpoint 2)"
+  }
+ },
+ "A24451": {
+  "result": {
+   "summary": "Login attempt against non-existent account 'anonymous' from 103.99.0.122.",
+   "severity": "Medium",
+   "rationale": "Default-credential-style username probe against an unknown account.",
+   "source_ip": "103.99.0.122",
+   "target_user": "anonymous",
+   "attack_technique": "T1110.003 - Password Spraying"
+  },
+  "meta": {
+   "source": "direct_prompt",
+   "model": null,
+   "prompt_version": "v1",
+   "timestamp": "2026-10-04 (Checkpoint 2)"
+  }
+ },
+ "A24955": {
+  "result": {
+   "summary": "Login attempt against non-existent account 'ubuntu' from 183.62.140.253.",
+   "severity": "Medium",
+   "rationale": "Default-cloud-image username probe against an unknown account.",
+   "source_ip": "183.62.140.253",
+   "target_user": "ubuntu",
+   "attack_technique": "T1110.003 - Password Spraying"
+  },
+  "meta": {
+   "source": "direct_prompt",
+   "model": null,
+   "prompt_version": "v1",
+   "timestamp": "2026-10-04 (Checkpoint 2)"
+  }
+ },
+ "A25521": {
+  "result": {
+   "summary": "Login attempt against non-existent account 'cisco' from 103.99.0.122.",
+   "severity": "Medium",
+   "rationale": "Default network-device-credential probe against an unknown account.",
+   "source_ip": "103.99.0.122",
+   "target_user": "cisco",
+   "attack_technique": "T1110.003 - Password Spraying"
+  },
+  "meta": {
+   "source": "direct_prompt",
+   "model": null,
+   "prompt_version": "v1",
+   "timestamp": "2026-10-04 (Checkpoint 2)"
+  }
+ },
+ "A25459": {
+  "result": {
+   "summary": "Login attempt against non-existent account 'user' from 103.99.0.122.",
+   "severity": "Medium",
+   "rationale": "Default-credential-style username probe against an unknown account.",
+   "source_ip": "103.99.0.122",
+   "target_user": "user",
+   "attack_technique": "T1110.003 - Password Spraying"
+  },
+  "meta": {
+   "source": "direct_prompt",
+   "model": null,
+   "prompt_version": "v1",
+   "timestamp": "2026-10-04 (Checkpoint 2)"
+  }
+ },
+ "A24336": {
+  "result": {
+   "summary": "Connection from 194.190.163.22 closed before any authentication was attempted.",
+   "severity": "Low",
+   "rationale": "No authentication activity occurred; consistent with a banner grab or port scan.",
+   "source_ip": "194.190.163.22",
+   "target_user": null,
+   "attack_technique": null
+  },
+  "meta": {
+   "source": "direct_prompt",
+   "model": null,
+   "prompt_version": "v1",
+   "timestamp": "2026-10-04 (Checkpoint 2)"
+  }
+ },
+ "A24865": {
+  "result": {
+   "summary": "Connection from 1.237.174.253 closed before any authentication was attempted.",
+   "severity": "Low",
+   "rationale": "No authentication activity occurred; consistent with a banner grab or port scan.",
+   "source_ip": "1.237.174.253",
+   "target_user": null,
+   "attack_technique": null
+  },
+  "meta": {
+   "source": "direct_prompt",
+   "model": null,
+   "prompt_version": "v1",
+   "timestamp": "2026-10-04 (Checkpoint 2)"
+  }
+ },
+ "A24839": {
+  "result": {
+   "summary": "Connection from 1.237.174.253 closed before any authentication was attempted.",
+   "severity": "Low",
+   "rationale": "No authentication activity occurred; consistent with a banner grab or port scan.",
+   "source_ip": "1.237.174.253",
+   "target_user": null,
+   "attack_technique": null
+  },
+  "meta": {
+   "source": "direct_prompt",
+   "model": null,
+   "prompt_version": "v1",
+   "timestamp": "2026-10-04 (Checkpoint 2)"
+  }
+ },
+ "A24511": {
+  "result": {
+   "summary": "Connection from 185.190.58.151 opened but no SSH identification string was received.",
+   "severity": "Low",
+   "rationale": "No authentication activity occurred; consistent with a non-SSH scanner probing the port.",
+   "source_ip": "185.190.58.151",
+   "target_user": null,
+   "attack_technique": null
+  },
+  "meta": {
+   "source": "direct_prompt",
+   "model": null,
+   "prompt_version": "v1",
+   "timestamp": "2026-10-04 (Checkpoint 2)"
+  }
+ },
+ "A24358": {
+  "result": {
+   "summary": "Connection from 194.190.163.22 closed before any authentication was attempted.",
+   "severity": "Low",
+   "rationale": "No authentication activity occurred; consistent with a banner grab or port scan.",
+   "source_ip": "194.190.163.22",
+   "target_user": null,
+   "attack_technique": null
+  },
+  "meta": {
+   "source": "direct_prompt",
+   "model": null,
+   "prompt_version": "v1",
+   "timestamp": "2026-10-04 (Checkpoint 2)"
+  }
+ },
+ "A24636": {
+  "result": {
+   "summary": "Connection from 103.207.39.16 opened but no SSH identification string was received.",
+   "severity": "Low",
+   "rationale": "No authentication activity occurred; consistent with a non-SSH scanner probing the port.",
+   "source_ip": "103.207.39.16",
+   "target_user": null,
+   "attack_technique": null
+  },
+  "meta": {
+   "source": "direct_prompt",
+   "model": null,
+   "prompt_version": "v1",
+   "timestamp": "2026-10-04 (Checkpoint 2)"
+  }
+ },
+ "A24381": {
+  "result": {
+   "summary": "Connection from 5.188.10.180 closed before any authentication was attempted.",
+   "severity": "Low",
+   "rationale": "No authentication activity occurred; consistent with a banner grab or port scan.",
+   "source_ip": "5.188.10.180",
+   "target_user": null,
+   "attack_technique": null
+  },
+  "meta": {
+   "source": "direct_prompt",
+   "model": null,
+   "prompt_version": "v1",
+   "timestamp": "2026-10-04 (Checkpoint 2)"
+  }
+ },
+ "A24414": {
+  "result": {
+   "summary": "Connection from 188.132.244.89 opened but no SSH identification string was received.",
+   "severity": "Low",
+   "rationale": "No authentication activity occurred; consistent with a non-SSH scanner probing the port.",
+   "source_ip": "188.132.244.89",
+   "target_user": null,
+   "attack_technique": null
+  },
+  "meta": {
+   "source": "direct_prompt",
+   "model": null,
+   "prompt_version": "v1",
+   "timestamp": "2026-10-04 (Checkpoint 2)"
+  }
+ },
+ "A24245": {
+  "result": {
+   "summary": "Login attempt against non-existent account 'pgadmin' from 112.95.230.3.",
+   "severity": "Medium",
+   "rationale": "Database-admin-tool-style username probe against an unknown account; consistent with generic scanning dictionaries rather than targeted recon.",
+   "source_ip": "112.95.230.3",
+   "target_user": "pgadmin",
+   "attack_technique": "T1110.003 - Password Spraying"
+  },
+  "meta": {
+   "source": "direct_prompt",
+   "model": null,
+   "prompt_version": "v1",
+   "timestamp": "2026-10-04 (Checkpoint 2)"
+  }
+ },
+ "A24606": {
+  "result": {
+   "summary": "Login attempt against non-existent account 'oracle' from 187.141.143.180, flagged by reverse-DNS mismatch.",
+   "severity": "Medium",
+   "rationale": "Database-service-style username probe; account does not exist on this host, so treated as generic credential guessing rather than confirmed targeting.",
+   "source_ip": "187.141.143.180",
+   "target_user": "oracle",
+   "attack_technique": "T1110.003 - Password Spraying"
+  },
+  "meta": {
+   "source": "direct_prompt",
+   "model": null,
+   "prompt_version": "v1",
+   "timestamp": "2026-10-04 (Checkpoint 2)"
+  }
+ },
+ "A24608": {
+  "result": {
+   "summary": "Login attempt against non-existent account 'oracle' from 187.141.143.180, flagged by reverse-DNS mismatch.",
+   "severity": "Medium",
+   "rationale": "Repeat of the same username probe from a source already attacking this host; account does not exist here.",
+   "source_ip": "187.141.143.180",
+   "target_user": "oracle",
+   "attack_technique": "T1110.003 - Password Spraying"
+  },
+  "meta": {
+   "source": "direct_prompt",
+   "model": null,
+   "prompt_version": "v1",
+   "timestamp": "2026-10-04 (Checkpoint 2)"
+  }
+ },
+ "A24610": {
+  "result": {
+   "summary": "Login attempt against non-existent account 'oracle' from 187.141.143.180, flagged by reverse-DNS mismatch.",
+   "severity": "Medium",
+   "rationale": "Repeat of the same username probe from a source already attacking this host; account does not exist here.",
+   "source_ip": "187.141.143.180",
+   "target_user": "oracle",
+   "attack_technique": "T1110.003 - Password Spraying"
+  },
+  "meta": {
+   "source": "direct_prompt",
+   "model": null,
+   "prompt_version": "v1",
+   "timestamp": "2026-10-04 (Checkpoint 2)"
+  }
+ },
+ "A24612": {
+  "result": {
+   "summary": "Login attempt against non-existent account 'postgres' from 187.141.143.180, flagged by reverse-DNS mismatch.",
+   "severity": "Medium",
+   "rationale": "Database-service-style username probe; account does not exist on this host, so treated as generic credential guessing.",
+   "source_ip": "187.141.143.180",
+   "target_user": "postgres",
+   "attack_technique": "T1110.003 - Password Spraying"
+  },
+  "meta": {
+   "source": "direct_prompt",
+   "model": null,
+   "prompt_version": "v1",
+   "timestamp": "2026-10-04 (Checkpoint 2)"
+  }
+ },
+ "A24647": {
+  "result": {
+   "summary": "Login attempt against non-existent account 'oracle' from 187.141.143.180, flagged by reverse-DNS mismatch.",
+   "severity": "Medium",
+   "rationale": "Repeat of the same username probe from a source already attacking this host; account does not exist here.",
+   "source_ip": "187.141.143.180",
+   "target_user": "oracle",
+   "attack_technique": "T1110.003 - Password Spraying"
+  },
+  "meta": {
+   "source": "direct_prompt",
+   "model": null,
+   "prompt_version": "v1",
+   "timestamp": "2026-10-04 (Checkpoint 2)"
+  }
+ },
+ "A24659": {
+  "result": {
+   "summary": "Failed password attempt against the 'mysql' account from 187.141.143.180, flagged by reverse-DNS mismatch. Unlike the other probes from this source, 'mysql' is a real local account on this host rather than an invalid username.",
+   "severity": "Medium",
+   "rationale": "This targets an account that actually exists, during a connection already flagged for reverse-DNS mismatch, which is more concerning than a guess against a nonexistent account even though only one attempt was logged here.",
+   "source_ip": "187.141.143.180",
+   "target_user": "mysql",
+   "attack_technique": "T1110.001 - Brute Force: Password Guessing"
+  },
+  "meta": {
+   "source": "direct_prompt",
+   "model": null,
+   "prompt_version": "v1",
+   "timestamp": "2026-10-04 (Checkpoint 2)"
+  }
+ },
+ "A24661": {
+  "result": {
+   "summary": "Failed password attempt against the 'mysql' account from 187.141.143.180, flagged by reverse-DNS mismatch. Same valid-account pattern as the prior attempt from this IP.",
+   "severity": "Medium",
+   "rationale": "Targets an existing local account from a source with a prior flagged attempt against the same account, suggesting a short brute-force sequence rather than a one-off scan.",
+   "source_ip": "187.141.143.180",
+   "target_user": "mysql",
+   "attack_technique": "T1110.001 - Brute Force: Password Guessing"
+  },
+  "meta": {
+   "source": "direct_prompt",
+   "model": null,
+   "prompt_version": "v1",
+   "timestamp": "2026-10-04 (Checkpoint 2)"
+  }
+ },
+ "A24949": {
+  "result": {
+   "summary": "Login attempt against non-existent account 'oracle' from 183.62.140.253.",
+   "severity": "Medium",
+   "rationale": "Database-service-style username probe; account does not exist on this host, so treated as generic credential guessing.",
+   "source_ip": "183.62.140.253",
+   "target_user": "oracle",
+   "attack_technique": "T1110.003 - Password Spraying"
+  },
+  "meta": {
+   "source": "direct_prompt",
+   "model": null,
+   "prompt_version": "v1",
+   "timestamp": "2026-10-04 (Checkpoint 2)"
+  }
+ },
+ "A24953": {
+  "result": {
+   "summary": "Login attempt against non-existent account 'oracle' from 183.62.140.253, repeat of the prior attempt from the same source.",
+   "severity": "Medium",
+   "rationale": "Second probe of the same username from the same source suggests a short automated retry rather than a new, independent scan.",
+   "source_ip": "183.62.140.253",
+   "target_user": "oracle",
+   "attack_technique": "T1110.003 - Password Spraying"
+  },
+  "meta": {
+   "source": "direct_prompt",
+   "model": null,
+   "prompt_version": "v1",
+   "timestamp": "2026-10-04 (Checkpoint 2)"
+  }
+ },
+ "A25541": {
+  "result": {
+   "summary": "An external IP address attempted to authenticate as the root user via SSH using a password that failed.",
+   "severity": "Medium",
+   "rationale": "A failed SSH login attempt targeting the privileged root account indicates a potential brute-force or unauthorized access attempt, but requires further evidence of persistence to be considered high severity.",
+   "source_ip": "183.62.140.253",
+   "target_user": "root",
+   "attack_technique": "T1110.001 Brute Force: Password Guessing"
+  },
+  "meta": {
+   "source": "api_live",
+   "model": "gemini-3.5-flash-lite",
+   "prompt_version": "v1",
+   "timestamp": "2026-10-19T15:31:03+00:00"
+  }
+ },
+ "A25537": {
+  "result": {
+   "summary": "An external IP address attempted and failed to authenticate as the root user via SSH.",
+   "severity": "Medium",
+   "rationale": "The attempt targets the privileged root account, but consists of a single failure event without confirmed mass brute-force scale in the provided logs.",
+   "source_ip": "183.62.140.253",
+   "target_user": "root",
+   "attack_technique": "T1110 - Brute Force"
+  },
+  "meta": {
+   "source": "api_live",
+   "model": "gemini-3.5-flash-lite",
+   "prompt_version": "v1",
+   "timestamp": "2026-10-19T15:31:14+00:00"
+  }
+ },
+ "A25532": {
+  "result": {
+   "summary": "An authentication failure and failed password attempt for the root user originated from external IP 183.62.140.253.",
+   "severity": "High",
+   "rationale": "Direct brute-force or unauthorized login attempts targeting the privileged root account represent a severe security risk.",
+   "source_ip": "183.62.140.253",
+   "target_user": "root",
+   "attack_technique": "T1110.001 - Brute Force: Password Guessing"
+  },
+  "meta": {
+   "source": "api_live",
+   "model": "gemini-3.5-flash-lite",
+   "prompt_version": "v1",
+   "timestamp": "2026-10-19T21:36:15+00:00"
+  }
+ },
+ "A25530": {
+  "result": {
+   "summary": "An authentication failure and failed SSH password attempt were recorded for the root user from the external IP address 183.62.140.253.",
+   "severity": "Medium",
+   "rationale": "A failed login attempt targeting the privileged root user from an external IP indicates a potential brute-force or unauthorized access attempt.",
+   "source_ip": "183.62.140.253",
+   "target_user": "root",
+   "attack_technique": "T1110 - Brute Force"
+  },
+  "meta": {
+   "source": "api_live",
+   "model": "gemini-3.5-flash-lite",
+   "prompt_version": "v1",
+   "timestamp": "2026-10-19T21:40:18+00:00"
+  }
+ },
+ "A25525": {
+  "result": {
+   "summary": "An external IP address attempted to authenticate as the root user via SSH using an invalid password, resulting in authentication failure.",
+   "severity": "Medium",
+   "rationale": "Direct brute-force or unauthorized access attempts targeting the privileged root account pose a notable security risk, though this single log snippet does not yet indicate a successful breach.",
+   "source_ip": "183.62.140.253",
+   "target_user": "root",
+   "attack_technique": "T1110.001 - Brute Force: Password Guessing"
+  },
+  "meta": {
+   "source": "api_live",
+   "model": "gemini-3.5-flash-lite",
+   "prompt_version": "v1",
+   "timestamp": "2026-10-19T21:40:24+00:00"
+  }
+ }
+}

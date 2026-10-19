@@ -1,0 +1,273 @@
+{
+  "rubric_v1__prompt_v1": {
+    "rubric": "v1",
+    "rule_based_full": {
+      "n": 519,
+      "accuracy": 0.9711,
+      "cohen_kappa": 0.9344,
+      "confusion": [
+        [
+          22,
+          15,
+          0,
+          0
+        ],
+        [
+          0,
+          113,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          368,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "labels": [
+        "Low",
+        "Medium",
+        "High",
+        "Critical"
+      ]
+    },
+    "llm_covered_ids": 41,
+    "rule_based_on_llm_ids": {
+      "n": 41,
+      "accuracy": 0.9512,
+      "cohen_kappa": 0.9208,
+      "confusion": [
+        [
+          8,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          21,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          9,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "labels": [
+        "Low",
+        "Medium",
+        "High",
+        "Critical"
+      ]
+    },
+    "llm": {
+      "n": 41,
+      "accuracy": 0.9512,
+      "cohen_kappa": 0.9208,
+      "confusion": [
+        [
+          8,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          21,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          9,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "labels": [
+        "Low",
+        "Medium",
+        "High",
+        "Critical"
+      ]
+    },
+    "disagreements": [
+      {
+        "alert_id": "A24659",
+        "target_user": "mysql",
+        "ground_truth": "Low",
+        "rule_based": "Medium",
+        "llm": "Medium",
+        "llm_rationale": "This targets an account that actually exists, during a connection already flagged for reverse-DNS mismatch, which is more concerning than a guess against a nonexistent account even though only one attempt was logged here."
+      },
+      {
+        "alert_id": "A24661",
+        "target_user": "mysql",
+        "ground_truth": "Low",
+        "rule_based": "Medium",
+        "llm": "Medium",
+        "llm_rationale": "Targets an existing local account from a source with a prior flagged attempt against the same account, suggesting a short brute-force sequence rather than a one-off scan."
+      }
+    ],
+    "summary_quality": {
+      "n": 41,
+      "average": 3.0,
+      "entity_extraction": 1.0,
+      "actionable": 1.0,
+      "no_hallucination": 1.0,
+      "failures": []
+    },
+    "provenance": {
+      "direct_prompt": 41
+    }
+  },
+  "rubric_v2__prompt_v1": {
+    "rubric": "v2",
+    "rule_based_full": {
+      "n": 519,
+      "accuracy": 1.0,
+      "cohen_kappa": 1.0,
+      "confusion": [
+        [
+          22,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          128,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          368,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "labels": [
+        "Low",
+        "Medium",
+        "High",
+        "Critical"
+      ]
+    },
+    "llm_covered_ids": 41,
+    "rule_based_on_llm_ids": {
+      "n": 41,
+      "accuracy": 1.0,
+      "cohen_kappa": 1.0,
+      "confusion": [
+        [
+          8,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          23,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          9,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "labels": [
+        "Low",
+        "Medium",
+        "High",
+        "Critical"
+      ]
+    },
+    "llm": {
+      "n": 41,
+      "accuracy": 1.0,
+      "cohen_kappa": 1.0,
+      "confusion": [
+        [
+          8,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          23,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          9,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "labels": [
+        "Low",
+        "Medium",
+        "High",
+        "Critical"
+      ]
+    },
+    "disagreements": [],
+    "summary_quality": {
+      "n": 41,
+      "average": 3.0,
+      "entity_extraction": 1.0,
+      "actionable": 1.0,
+      "no_hallucination": 1.0,
+      "failures": []
+    },
+    "provenance": {
+      "direct_prompt": 41
+    }
+  }
+}

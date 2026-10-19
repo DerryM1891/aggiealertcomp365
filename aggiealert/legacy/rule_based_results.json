@@ -1,0 +1,266 @@
+[
+  {
+    "alert_id": "A24680",
+    "source_ip": "119.137.62.142",
+    "target_user": "fztu",
+    "rule_based_severity": "Critical",
+    "matched_signatures": [
+      "accepted"
+    ],
+    "rationale": "Signature match: successful password authentication logged."
+  },
+  {
+    "alert_id": "A24227",
+    "source_ip": "5.36.59.76",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target",
+      "repeated"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A24408",
+    "source_ip": "106.5.5.195",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target",
+      "repeated"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A24667",
+    "source_ip": "187.141.143.180",
+    "target_user": "magnos",
+    "rule_based_severity": "Medium",
+    "matched_signatures": [
+      "failed",
+      "invalid_user",
+      "breakin"
+    ],
+    "rationale": "Signature match: authentication attempted against a non-existent account."
+  },
+  {
+    "alert_id": "A24522",
+    "source_ip": "187.141.143.180",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target",
+      "breakin"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A24324",
+    "source_ip": "195.154.37.122",
+    "target_user": "support",
+    "rule_based_severity": "Medium",
+    "matched_signatures": [
+      "failed",
+      "invalid_user",
+      "breakin"
+    ],
+    "rationale": "Signature match: authentication attempted against a non-existent account."
+  },
+  {
+    "alert_id": "A24565",
+    "source_ip": "187.141.143.180",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target",
+      "breakin"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A24557",
+    "source_ip": "187.141.143.180",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target",
+      "breakin"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A24551",
+    "source_ip": "187.141.143.180",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target",
+      "breakin"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A24529",
+    "source_ip": "187.141.143.180",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target",
+      "breakin"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A24520",
+    "source_ip": "187.141.143.180",
+    "target_user": "root",
+    "rule_based_severity": "High",
+    "matched_signatures": [
+      "failed",
+      "root_target",
+      "breakin"
+    ],
+    "rationale": "Signature match: repeated failed logins or failed root login (brute-force pattern)."
+  },
+  {
+    "alert_id": "A25448",
+    "source_ip": "103.99.0.122",
+    "target_user": "admin",
+    "rule_based_severity": "Medium",
+    "matched_signatures": [
+      "failed",
+      "invalid_user"
+    ],
+    "rationale": "Signature match: authentication attempted against a non-existent account."
+  },
+  {
+    "alert_id": "A24367",
+    "source_ip": "5.188.10.180",
+    "target_user": "admin",
+    "rule_based_severity": "Medium",
+    "matched_signatures": [
+      "invalid_user"
+    ],
+    "rationale": "Signature match: authentication attempted against a non-existent account."
+  },
+  {
+    "alert_id": "A25492",
+    "source_ip": "103.99.0.122",
+    "target_user": "ubnt",
+    "rule_based_severity": "Medium",
+    "matched_signatures": [
+      "failed",
+      "invalid_user"
+    ],
+    "rationale": "Signature match: authentication attempted against a non-existent account."
+  },
+  {
+    "alert_id": "A24806",
+    "source_ip": "181.214.87.4",
+    "target_user": "0",
+    "rule_based_severity": "Medium",
+    "matched_signatures": [
+      "invalid_user"
+    ],
+    "rationale": "Signature match: authentication attempted against a non-existent account."
+  },
+  {
+    "alert_id": "A24318",
+    "source_ip": "183.136.162.51",
+    "target_user": "inspur",
+    "rule_based_severity": "Medium",
+    "matched_signatures": [
+      "failed",
+      "invalid_user"
+    ],
+    "rationale": "Signature match: authentication attempted against a non-existent account."
+  },
+  {
+    "alert_id": "A24265",
+    "source_ip": "112.95.230.3",
+    "target_user": "utsims",
+    "rule_based_severity": "Medium",
+    "matched_signatures": [
+      "failed",
+      "invalid_user"
+    ],
+    "rationale": "Signature match: authentication attempted against a non-existent account."
+  },
+  {
+    "alert_id": "A25534",
+    "source_ip": "103.99.0.122",
+    "target_user": "guest",
+    "rule_based_severity": "Medium",
+    "matched_signatures": [
+      "failed",
+      "invalid_user"
+    ],
+    "rationale": "Signature match: authentication attempted against a non-existent account."
+  },
+  {
+    "alert_id": "A24443",
+    "source_ip": "103.99.0.122",
+    "target_user": "user",
+    "rule_based_severity": "Medium",
+    "matched_signatures": [
+      "failed",
+      "invalid_user"
+    ],
+    "rationale": "Signature match: authentication attempted against a non-existent account."
+  },
+  {
+    "alert_id": "A24358",
+    "source_ip": "194.190.163.22",
+    "target_user": null,
+    "rule_based_severity": "Low",
+    "matched_signatures": [],
+    "rationale": "No authentication-failure or success signatures matched; likely benign connection/disconnect."
+  },
+  {
+    "alert_id": "A24808",
+    "source_ip": "181.214.87.4",
+    "target_user": null,
+    "rule_based_severity": "Low",
+    "matched_signatures": [],
+    "rationale": "No authentication-failure or success signatures matched; likely benign connection/disconnect."
+  },
+  {
+    "alert_id": "A24862",
+    "source_ip": "88.147.143.242",
+    "target_user": null,
+    "rule_based_severity": "Low",
+    "matched_signatures": [],
+    "rationale": "No authentication-failure or success signatures matched; likely benign connection/disconnect."
+  },
+  {
+    "alert_id": "A24203",
+    "source_ip": "212.47.254.145",
+    "target_user": null,
+    "rule_based_severity": "Low",
+    "matched_signatures": [],
+    "rationale": "No authentication-failure or success signatures matched; likely benign connection/disconnect."
+  },
+  {
+    "alert_id": "A24839",
+    "source_ip": "1.237.174.253",
+    "target_user": null,
+    "rule_based_severity": "Low",
+    "matched_signatures": [],
+    "rationale": "No authentication-failure or success signatures matched; likely benign connection/disconnect."
+  },
+  {
+    "alert_id": "A24336",
+    "source_ip": "194.190.163.22",
+    "target_user": null,
+    "rule_based_severity": "Low",
+    "matched_signatures": [],
+    "rationale": "No authentication-failure or success signatures matched; likely benign connection/disconnect."
+  }
+]

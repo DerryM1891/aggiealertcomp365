@@ -1,0 +1,330 @@
+[
+  {
+    "alert_id": "A24680",
+    "entity_extraction": 1,
+    "actionable_rationale": 1,
+    "no_hallucination": 1,
+    "quality_score": 3,
+    "entity_mismatch_detail": null
+  },
+  {
+    "alert_id": "A24227",
+    "entity_extraction": 1,
+    "actionable_rationale": 1,
+    "no_hallucination": 1,
+    "quality_score": 3,
+    "entity_mismatch_detail": null
+  },
+  {
+    "alert_id": "A24408",
+    "entity_extraction": 1,
+    "actionable_rationale": 1,
+    "no_hallucination": 1,
+    "quality_score": 3,
+    "entity_mismatch_detail": null
+  },
+  {
+    "alert_id": "A24667",
+    "entity_extraction": 1,
+    "actionable_rationale": 1,
+    "no_hallucination": 1,
+    "quality_score": 3,
+    "entity_mismatch_detail": null
+  },
+  {
+    "alert_id": "A24522",
+    "entity_extraction": 1,
+    "actionable_rationale": 1,
+    "no_hallucination": 1,
+    "quality_score": 3,
+    "entity_mismatch_detail": null
+  },
+  {
+    "alert_id": "A24324",
+    "entity_extraction": 1,
+    "actionable_rationale": 1,
+    "no_hallucination": 1,
+    "quality_score": 3,
+    "entity_mismatch_detail": null
+  },
+  {
+    "alert_id": "A24565",
+    "entity_extraction": 1,
+    "actionable_rationale": 1,
+    "no_hallucination": 1,
+    "quality_score": 3,
+    "entity_mismatch_detail": null
+  },
+  {
+    "alert_id": "A24557",
+    "entity_extraction": 1,
+    "actionable_rationale": 1,
+    "no_hallucination": 1,
+    "quality_score": 3,
+    "entity_mismatch_detail": null
+  },
+  {
+    "alert_id": "A24551",
+    "entity_extraction": 1,
+    "actionable_rationale": 1,
+    "no_hallucination": 1,
+    "quality_score": 3,
+    "entity_mismatch_detail": null
+  },
+  {
+    "alert_id": "A24529",
+    "entity_extraction": 1,
+    "actionable_rationale": 1,
+    "no_hallucination": 1,
+    "quality_score": 3,
+    "entity_mismatch_detail": null
+  },
+  {
+    "alert_id": "A24520",
+    "entity_extraction": 1,
+    "actionable_rationale": 1,
+    "no_hallucination": 1,
+    "quality_score": 3,
+    "entity_mismatch_detail": null
+  },
+  {
+    "alert_id": "A24641",
+    "entity_extraction": 1,
+    "actionable_rationale": 1,
+    "no_hallucination": 1,
+    "quality_score": 3,
+    "entity_mismatch_detail": null
+  },
+  {
+    "alert_id": "A24516",
+    "entity_extraction": 1,
+    "actionable_rationale": 1,
+    "no_hallucination": 1,
+    "quality_score": 3,
+    "entity_mismatch_detail": null
+  },
+  {
+    "alert_id": "A25492",
+    "entity_extraction": 1,
+    "actionable_rationale": 1,
+    "no_hallucination": 1,
+    "quality_score": 3,
+    "entity_mismatch_detail": null
+  },
+  {
+    "alert_id": "A24806",
+    "entity_extraction": 1,
+    "actionable_rationale": 1,
+    "no_hallucination": 1,
+    "quality_score": 3,
+    "entity_mismatch_detail": null
+  },
+  {
+    "alert_id": "A24318",
+    "entity_extraction": 1,
+    "actionable_rationale": 1,
+    "no_hallucination": 1,
+    "quality_score": 3,
+    "entity_mismatch_detail": null
+  },
+  {
+    "alert_id": "A24265",
+    "entity_extraction": 1,
+    "actionable_rationale": 1,
+    "no_hallucination": 1,
+    "quality_score": 3,
+    "entity_mismatch_detail": null
+  },
+  {
+    "alert_id": "A24367",
+    "entity_extraction": 1,
+    "actionable_rationale": 1,
+    "no_hallucination": 1,
+    "quality_score": 3,
+    "entity_mismatch_detail": null
+  },
+  {
+    "alert_id": "A24443",
+    "entity_extraction": 1,
+    "actionable_rationale": 1,
+    "no_hallucination": 1,
+    "quality_score": 3,
+    "entity_mismatch_detail": null
+  },
+  {
+    "alert_id": "A24451",
+    "entity_extraction": 1,
+    "actionable_rationale": 1,
+    "no_hallucination": 1,
+    "quality_score": 3,
+    "entity_mismatch_detail": null
+  },
+  {
+    "alert_id": "A24955",
+    "entity_extraction": 1,
+    "actionable_rationale": 1,
+    "no_hallucination": 1,
+    "quality_score": 3,
+    "entity_mismatch_detail": null
+  },
+  {
+    "alert_id": "A25521",
+    "entity_extraction": 1,
+    "actionable_rationale": 1,
+    "no_hallucination": 1,
+    "quality_score": 3,
+    "entity_mismatch_detail": null
+  },
+  {
+    "alert_id": "A25459",
+    "entity_extraction": 1,
+    "actionable_rationale": 1,
+    "no_hallucination": 1,
+    "quality_score": 3,
+    "entity_mismatch_detail": null
+  },
+  {
+    "alert_id": "A24336",
+    "entity_extraction": 1,
+    "actionable_rationale": 1,
+    "no_hallucination": 1,
+    "quality_score": 3,
+    "entity_mismatch_detail": null
+  },
+  {
+    "alert_id": "A24865",
+    "entity_extraction": 1,
+    "actionable_rationale": 1,
+    "no_hallucination": 1,
+    "quality_score": 3,
+    "entity_mismatch_detail": null
+  },
+  {
+    "alert_id": "A24839",
+    "entity_extraction": 1,
+    "actionable_rationale": 1,
+    "no_hallucination": 1,
+    "quality_score": 3,
+    "entity_mismatch_detail": null
+  },
+  {
+    "alert_id": "A24511",
+    "entity_extraction": 1,
+    "actionable_rationale": 1,
+    "no_hallucination": 1,
+    "quality_score": 3,
+    "entity_mismatch_detail": null
+  },
+  {
+    "alert_id": "A24358",
+    "entity_extraction": 1,
+    "actionable_rationale": 1,
+    "no_hallucination": 1,
+    "quality_score": 3,
+    "entity_mismatch_detail": null
+  },
+  {
+    "alert_id": "A24636",
+    "entity_extraction": 1,
+    "actionable_rationale": 1,
+    "no_hallucination": 1,
+    "quality_score": 3,
+    "entity_mismatch_detail": null
+  },
+  {
+    "alert_id": "A24381",
+    "entity_extraction": 1,
+    "actionable_rationale": 1,
+    "no_hallucination": 1,
+    "quality_score": 3,
+    "entity_mismatch_detail": null
+  },
+  {
+    "alert_id": "A24414",
+    "entity_extraction": 1,
+    "actionable_rationale": 1,
+    "no_hallucination": 1,
+    "quality_score": 3,
+    "entity_mismatch_detail": null
+  },
+  {
+    "alert_id": "A24245",
+    "entity_extraction": 1,
+    "actionable_rationale": 1,
+    "no_hallucination": 1,
+    "quality_score": 3,
+    "entity_mismatch_detail": null
+  },
+  {
+    "alert_id": "A24606",
+    "entity_extraction": 1,
+    "actionable_rationale": 1,
+    "no_hallucination": 1,
+    "quality_score": 3,
+    "entity_mismatch_detail": null
+  },
+  {
+    "alert_id": "A24608",
+    "entity_extraction": 1,
+    "actionable_rationale": 1,
+    "no_hallucination": 1,
+    "quality_score": 3,
+    "entity_mismatch_detail": null
+  },
+  {
+    "alert_id": "A24610",
+    "entity_extraction": 1,
+    "actionable_rationale": 1,
+    "no_hallucination": 1,
+    "quality_score": 3,
+    "entity_mismatch_detail": null
+  },
+  {
+    "alert_id": "A24612",
+    "entity_extraction": 1,
+    "actionable_rationale": 1,
+    "no_hallucination": 1,
+    "quality_score": 3,
+    "entity_mismatch_detail": null
+  },
+  {
+    "alert_id": "A24647",
+    "entity_extraction": 1,
+    "actionable_rationale": 1,
+    "no_hallucination": 1,
+    "quality_score": 3,
+    "entity_mismatch_detail": null
+  },
+  {
+    "alert_id": "A24659",
+    "entity_extraction": 1,
+    "actionable_rationale": 1,
+    "no_hallucination": 1,
+    "quality_score": 3,
+    "entity_mismatch_detail": null
+  },
+  {
+    "alert_id": "A24661",
+    "entity_extraction": 1,
+    "actionable_rationale": 1,
+    "no_hallucination": 1,
+    "quality_score": 3,
+    "entity_mismatch_detail": null
+  },
+  {
+    "alert_id": "A24949",
+    "entity_extraction": 1,
+    "actionable_rationale": 1,
+    "no_hallucination": 1,
+    "quality_score": 3,
+    "entity_mismatch_detail": null
+  },
+  {
+    "alert_id": "A24953",
+    "entity_extraction": 1,
+    "actionable_rationale": 1,
+    "no_hallucination": 1,
+    "quality_score": 3,
+    "entity_mismatch_detail": null
+  }
+]
